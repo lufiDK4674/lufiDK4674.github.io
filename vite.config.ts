@@ -16,7 +16,7 @@ export default defineConfig(({ mode }) => ({
   },
   build: {
     outDir: "dist",
-    minify: "terser", // Use terser instead of esbuild to avoid minification issues
+    minify: false, // Use terser instead of esbuild to avoid minification issues
     sourcemap: true, // Enable source maps for debugging
     terserOptions: {
       mangle: {
