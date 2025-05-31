@@ -43,7 +43,11 @@ const About = () => {
               <div className="w-64 h-64 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-600 p-1">
                 <div className="w-full h-full rounded-2xl bg-gray-800 flex items-center justify-center">
                   <div className="w-56 h-56 rounded-2xl bg-gradient-to-br from-gray-700 to-gray-600 flex items-center justify-center text-4xl font-bold text-blue-400">
-                    <img src="src\assets\profile.png" alt="Divyanshu's Profile" />
+                    <img
+                      src="https://i.postimg.cc/JnT9NyfL/Linked-In-Profile-UPSCALED.png"
+                      alt="Divyanshu's Profile"
+                      className="w-64 h-64 rounded-full object-cover"
+                    />
                   </div>
                 </div>
               </div>

@@ -1,11 +1,10 @@
-// vite.config.ts or vite.config.js
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "./", // ✅ Correct for GitHub Pages root repo: lufiDK4674.github.io
+  base: "/", // Correct for user/organization GitHub Pages site
   plugins: [
     react(),
     mode === "development" && componentTagger(),
@@ -13,6 +12,16 @@ export default defineConfig(({ mode }) => ({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+    },
+  },
+  build: {
+    outDir: "dist",
+    minify: "terser", // Use terser instead of esbuild to avoid minification issues
+    sourcemap: true, // Enable source maps for debugging
+    terserOptions: {
+      mangle: {
+        keep_fnames: true, // Preserve function names to avoid breaking code
+      },
     },
   },
 }));

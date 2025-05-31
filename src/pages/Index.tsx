@@ -23,7 +23,11 @@ const Index = () => {
                 <div className="w-80 h-80 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1 animate-pulse">
                   <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center">
                     <div className="w-72 h-72 rounded-full bg-gradient-to-br from-gray-700 to-gray-600 flex items-center justify-center text-6xl font-bold text-blue-400">
-                      <img src="src\assets\profile.png" alt="Divyanshu's Profile" className="w-64 h-64 rounded-full object-cover" />
+                      <img
+                        src="https://i.postimg.cc/JnT9NyfL/Linked-In-Profile-UPSCALED.png"
+                        alt="Divyanshu's Profile"
+                        className="w-64 h-64 rounded-full object-cover"
+                      />
                     </div>
                   </div>
                 </div>
