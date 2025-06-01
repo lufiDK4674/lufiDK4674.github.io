@@ -17766,8 +17766,7 @@ const About = () => {
         "img",
         {
           src: "https://i.postimg.cc/JnT9NyfL/Linked-In-Profile-UPSCALED.png",
-          alt: "Divyanshu's Profile",
-          className: "w-64 h-64 rounded-full object-cover"
+          alt: "Divyanshu's Profile"
         }
       ) }) }) }) }) })
     ] }),
@@ -19063,4 +19062,4 @@ const App = () => /* @__PURE__ */ jsxRuntimeExports.jsx(QueryClientProvider, { c
   ] }) }) })
 ] }) });
 createRoot(document.getElementById("root")).render(/* @__PURE__ */ jsxRuntimeExports.jsx(App, {}));
-//# sourceMappingURL=index-DkyX97NT.js.map
+//# sourceMappingURL=index-BVdUbUhd.js.map
