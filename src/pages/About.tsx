@@ -46,7 +46,7 @@ const About = () => {
                     <img
                       src="https://i.postimg.cc/JnT9NyfL/Linked-In-Profile-UPSCALED.png"
                       alt="Divyanshu's Profile"
-                      className="w-64 h-64 object-cover"
+                      className="w-55 h-55 object-cover"
                     />
                   </div>
                 </div>
