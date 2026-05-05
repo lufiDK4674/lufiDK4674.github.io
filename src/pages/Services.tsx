@@ -2,13 +2,15 @@
 import { Brain, BarChart3, Rocket, Code, Database, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 const Services = () => {
+  useScrollReveal();
   const services = [
     {
       icon: <Brain className="text-blue-400" size={48} />,
       title: "AI-Based Solution Development",
-      description: "I build intelligent applications that solve real-world problems—from automation to prediction. Specializing in computer vision, NLP, and machine learning systems that deliver measurable business value.",
+      description: "I build intelligent applications that solve real-world problems, from automation to prediction. Specializing in computer vision, NLP, and machine learning systems that deliver measurable business value.",
       features: [
         "Custom ML model development",
         "Computer vision systems",

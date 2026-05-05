@@ -15,6 +15,7 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollPageNav from "./components/ScrollPageNav";
 
 const queryClient = new QueryClient();
 
@@ -40,6 +41,7 @@ const App = () => (
         <ErrorBoundary>
           <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
             <Navbar />
+            <ScrollPageNav />
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/about" element={<About />} />

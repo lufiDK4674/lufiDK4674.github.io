@@ -8676,6 +8676,30 @@ const ArrowRight = createLucideIcon("ArrowRight", [
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
+const ArrowUpRight = createLucideIcon("ArrowUpRight", [
+  ["path", { d: "M7 7h10v10", key: "1tivn9" }],
+  ["path", { d: "M7 17 17 7", key: "1vkiza" }]
+]);
+/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const Bot = createLucideIcon("Bot", [
+  ["path", { d: "M12 8V4H8", key: "hb8ula" }],
+  ["rect", { width: "16", height: "12", x: "4", y: "8", rx: "2", key: "enze0r" }],
+  ["path", { d: "M2 14h2", key: "vft8re" }],
+  ["path", { d: "M20 14h2", key: "4cs60a" }],
+  ["path", { d: "M15 13v2", key: "1xurst" }],
+  ["path", { d: "M9 13v2", key: "rq6x2g" }]
+]);
+/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
 const Brain = createLucideIcon("Brain", [
   [
     "path",
@@ -8722,6 +8746,43 @@ const ChartColumn = createLucideIcon("ChartColumn", [
   ["path", { d: "M18 17V9", key: "2bz60n" }],
   ["path", { d: "M13 17V5", key: "1frdt8" }],
   ["path", { d: "M8 17v-3", key: "17ska0" }]
+]);
+/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const ChevronDown = createLucideIcon("ChevronDown", [
+  ["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]
+]);
+/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const ChevronUp = createLucideIcon("ChevronUp", [["path", { d: "m18 15-6-6-6 6", key: "153udz" }]]);
+/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const Clock = createLucideIcon("Clock", [
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["polyline", { points: "12 6 12 12 16 14", key: "68esgv" }]
+]);
+/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const CodeXml = createLucideIcon("CodeXml", [
+  ["path", { d: "m18 16 4-4-4-4", key: "1inbqp" }],
+  ["path", { d: "m6 8-4 4 4 4", key: "15zrgr" }],
+  ["path", { d: "m14.5 4-5 16", key: "e7oirm" }]
 ]);
 /**
  * @license lucide-react v0.462.0 - ISC
@@ -8790,8 +8851,12 @@ const ExternalLink = createLucideIcon("ExternalLink", [
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const Filter = createLucideIcon("Filter", [
-  ["polygon", { points: "22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3", key: "1yg77f" }]
+const FileText = createLucideIcon("FileText", [
+  ["path", { d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z", key: "1rqfz7" }],
+  ["path", { d: "M14 2v4a2 2 0 0 0 2 2h4", key: "tnqrlb" }],
+  ["path", { d: "M10 9H8", key: "b1mrlr" }],
+  ["path", { d: "M16 13H8", key: "t4e002" }],
+  ["path", { d: "M16 17H8", key: "z1uh3a" }]
 ]);
 /**
  * @license lucide-react v0.462.0 - ISC
@@ -8836,6 +8901,23 @@ const GraduationCap = createLucideIcon("GraduationCap", [
   ],
   ["path", { d: "M22 10v6", key: "1lu8f3" }],
   ["path", { d: "M6 12.5V16a6 3 0 0 0 12 0v-3.5", key: "1r8lef" }]
+]);
+/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const Layers = createLucideIcon("Layers", [
+  [
+    "path",
+    {
+      d: "m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z",
+      key: "8b97xw"
+    }
+  ],
+  ["path", { d: "m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65", key: "dd6zsq" }],
+  ["path", { d: "m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65", key: "ep9fru" }]
 ]);
 /**
  * @license lucide-react v0.462.0 - ISC
@@ -8947,6 +9029,40 @@ const Send = createLucideIcon("Send", [
     }
   ],
   ["path", { d: "m21.854 2.147-10.94 10.939", key: "12cjpa" }]
+]);
+/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const Sparkles = createLucideIcon("Sparkles", [
+  [
+    "path",
+    {
+      d: "M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z",
+      key: "4pj2yx"
+    }
+  ],
+  ["path", { d: "M20 3v4", key: "1olli1" }],
+  ["path", { d: "M22 5h-4", key: "1gvqau" }],
+  ["path", { d: "M4 17v2", key: "vumght" }],
+  ["path", { d: "M5 18H3", key: "zchphs" }]
+]);
+/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const Star = createLucideIcon("Star", [
+  [
+    "path",
+    {
+      d: "M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z",
+      key: "r04s7s"
+    }
+  ]
 ]);
 /**
  * @license lucide-react v0.462.0 - ISC
@@ -17685,669 +17801,1099 @@ const Button = reactExports.forwardRef(
   }
 );
 Button.displayName = "Button";
-const Index = () => {
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-h-screen pt-16", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "relative min-h-screen flex items-center justify-center overflow-hidden", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute inset-0 opacity-20", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute top-40 right-10 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse delay-1000" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute bottom-20 left-1/2 w-72 h-72 bg-cyan-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse delay-2000" })
+const resumes = [
+  {
+    label: "AI Automation Engineer",
+    subtitle: "LLMs · RAG · n8n · LangChain",
+    file: "/resumes/Divyanshu Kumar AI_Auto.pdf",
+    color: "from-blue-500 to-cyan-400",
+    dot: "bg-blue-400"
+  },
+  {
+    label: "Agentic AI Engineer",
+    subtitle: "ReAct · LangGraph · CrewAI · Agents",
+    file: "/resumes/Divyanshu KumAR.pdf",
+    color: "from-violet-500 to-purple-400",
+    dot: "bg-violet-400"
+  },
+  {
+    label: "AI & Robotics Engineer",
+    subtitle: "Edge AI · IoT · Computer Vision",
+    file: "/resumes/Divyanshu Kumar AI_Robo.pdf",
+    color: "from-cyan-500 to-teal-400",
+    dot: "bg-cyan-400"
+  },
+  {
+    label: "Python Backend & AI Engineer",
+    subtitle: "FastAPI · Docker · REST APIs",
+    file: "/resumes/Divyanshu Kumar Backend_AI.pdf",
+    color: "from-green-500 to-emerald-400",
+    dot: "bg-green-400"
+  },
+  {
+    label: "Data Analyst / Data Scientist",
+    subtitle: "EDA · ML Pipelines · Research",
+    file: "/resumes/Divyanshu Kumar_DA_DS.pdf",
+    color: "from-yellow-500 to-amber-400",
+    dot: "bg-yellow-400"
+  },
+  {
+    label: "AI & Software Engineer",
+    subtitle: "SDLC · ML · CV · Agile",
+    file: "/resumes/Divyanshu Kumar_SWE_AI.pdf",
+    color: "from-orange-500 to-red-400",
+    dot: "bg-orange-400"
+  },
+  {
+    label: "Associate Software Engineer",
+    subtitle: "C++ · DSA · Microservices",
+    file: "/resumes/Divyanshu Kumar ASE.pdf",
+    color: "from-pink-500 to-rose-400",
+    dot: "bg-pink-400"
+  }
+];
+function ResumeDownload({ variant = "hero", upward = false }) {
+  const [open, setOpen] = reactExports.useState(false);
+  const ref = reactExports.useRef(null);
+  reactExports.useEffect(() => {
+    function handleClick(e) {
+      if (ref.current && !ref.current.contains(e.target)) {
+        setOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
+  if (variant === "nav") {
+    return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { ref, className: "relative", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs(
+        "button",
+        {
+          onClick: () => setOpen(!open),
+          className: "flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white transition-all duration-300 shadow-lg shadow-blue-500/20",
+          children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Download, { size: 14 }),
+            "Resume",
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              ChevronDown,
+              {
+                size: 12,
+                className: `transition-transform duration-200 ${open ? "rotate-180" : ""}`
+              }
+            )
+          ]
+        }
+      ),
+      open && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute right-0 top-full mt-2 w-72 glass rounded-xl shadow-2xl shadow-black/40 z-50 overflow-hidden border border-white/10 animate-fade-in-scale", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "px-4 py-2.5 border-b border-white/10", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-gray-400 font-medium uppercase tracking-widest", children: "Choose your track" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "py-1.5 max-h-80 overflow-y-auto", children: resumes.map((r2) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "a",
+          {
+            href: r2.file,
+            download: true,
+            onClick: () => setOpen(false),
+            className: "flex items-center gap-3 px-4 py-2.5 hover:bg-white/5 transition-colors duration-150 group",
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `w-2 h-2 rounded-full flex-shrink-0 ${r2.dot}` }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex-1 min-w-0", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-white font-medium truncate group-hover:text-blue-400 transition-colors", children: r2.label }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-gray-500 truncate", children: r2.subtitle })
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                Download,
+                {
+                  size: 13,
+                  className: "text-gray-600 group-hover:text-blue-400 flex-shrink-0 transition-colors"
+                }
+              )
+            ]
+          },
+          r2.label
+        )) })
+      ] })
+    ] });
+  }
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { ref, className: "relative inline-block", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      "button",
+      {
+        onClick: () => setOpen(!open),
+        className: "group relative flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white overflow-hidden transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40",
+        children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 bg-[length:200%_100%] animate-shimmer" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "relative flex items-center gap-2", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(FileText, { size: 18 }),
+            "Download Resume",
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              ChevronDown,
+              {
+                size: 16,
+                className: `transition-transform duration-300 ${open ? "rotate-180" : ""}`
+              }
+            )
+          ] })
+        ]
+      }
+    ),
+    open && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: `absolute left-0 ${upward ? "bottom-full mb-3" : "top-full mt-3"} w-80 glass rounded-2xl shadow-2xl shadow-black/50 z-50 overflow-hidden border border-white/10 animate-fade-in-scale`, children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "px-5 py-3 border-b border-white/10 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(FileText, { size: 14, className: "text-blue-400" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-gray-300 font-semibold uppercase tracking-widest", children: "Role-specific resumes" })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-2 gap-12 items-center", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "order-2 lg:order-1 flex justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-80 h-80 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1 animate-pulse", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full h-full rounded-full bg-gray-800 flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-72 h-72 rounded-full bg-gradient-to-br from-gray-700 to-gray-600 flex items-center justify-center text-6xl font-bold text-blue-400", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "py-2", children: resumes.map((r2, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+        "a",
+        {
+          href: r2.file,
+          download: true,
+          onClick: () => setOpen(false),
+          className: "flex items-center gap-4 px-5 py-3 hover:bg-white/5 transition-all duration-150 group",
+          style: { animationDelay: `${i * 40}ms` },
+          children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "div",
+              {
+                className: `w-8 h-8 rounded-lg bg-gradient-to-br ${r2.color} flex items-center justify-center flex-shrink-0 shadow-sm group-hover:scale-110 transition-transform duration-200`,
+                children: /* @__PURE__ */ jsxRuntimeExports.jsx(FileText, { size: 14, className: "text-white" })
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex-1 min-w-0", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-white font-medium group-hover:text-blue-300 transition-colors", children: r2.label }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-gray-500 truncate mt-0.5", children: r2.subtitle })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              Download,
+              {
+                size: 14,
+                className: "text-gray-600 group-hover:text-blue-400 flex-shrink-0 transition-all duration-200 group-hover:translate-y-0.5"
+              }
+            )
+          ]
+        },
+        r2.label
+      )) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "px-5 py-3 border-t border-white/10 bg-white/[0.02]", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-gray-500 text-center", children: "Each resume is tailored for a specific role" }) })
+    ] })
+  ] });
+}
+const profileImg = "/assets/profile-BRw5lfID.jpeg";
+const roles = [
+  "AI Automation Engineer",
+  "Agentic AI Engineer",
+  "AI & Robotics Engineer",
+  "Python Backend Engineer",
+  "Data Scientist",
+  "ML Engineer"
+];
+const stats = [
+  { value: 10, suffix: "+", label: "AI Projects", color: "text-blue-400", bg: "from-blue-500/20 to-blue-600/5", border: "border-blue-500/20" },
+  { value: 4, suffix: "", label: "Companies Worked", color: "text-purple-400", bg: "from-purple-500/20 to-purple-600/5", border: "border-purple-500/20" },
+  { value: 95, suffix: "%", label: "Model Accuracy", color: "text-cyan-400", bg: "from-cyan-500/20 to-cyan-600/5", border: "border-cyan-500/20" },
+  { value: 2, suffix: "", label: "Hackathon Wins", color: "text-green-400", bg: "from-green-500/20 to-green-600/5", border: "border-green-500/20" }
+];
+function useTypewriter(words, speed = 80, pause = 2e3) {
+  const [display, setDisplay] = reactExports.useState("");
+  const [wordIdx, setWordIdx] = reactExports.useState(0);
+  const [charIdx, setCharIdx] = reactExports.useState(0);
+  const [deleting, setDeleting] = reactExports.useState(false);
+  reactExports.useEffect(() => {
+    const current = words[wordIdx];
+    let timeout;
+    if (!deleting && charIdx < current.length) {
+      timeout = setTimeout(() => setCharIdx((c) => c + 1), speed);
+    } else if (!deleting && charIdx === current.length) {
+      timeout = setTimeout(() => setDeleting(true), pause);
+    } else if (deleting && charIdx > 0) {
+      timeout = setTimeout(() => setCharIdx((c) => c - 1), speed / 2);
+    } else if (deleting && charIdx === 0) {
+      setDeleting(false);
+      setWordIdx((w2) => (w2 + 1) % words.length);
+    }
+    setDisplay(current.slice(0, charIdx));
+    return () => clearTimeout(timeout);
+  }, [charIdx, deleting, wordIdx, words, speed, pause]);
+  return display;
+}
+function useCountUp(target, duration = 1500, start = false) {
+  const [count2, setCount] = reactExports.useState(0);
+  reactExports.useEffect(() => {
+    if (!start) return;
+    let startTime;
+    const step = (timestamp) => {
+      if (!startTime) startTime = timestamp;
+      const progress = Math.min((timestamp - startTime) / duration, 1);
+      setCount(Math.floor(progress * target));
+      if (progress < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }, [target, duration, start]);
+  return count2;
+}
+function StatCard({ stat, index: index2 }) {
+  const ref = reactExports.useRef(null);
+  const [visible, setVisible] = reactExports.useState(false);
+  reactExports.useEffect(() => {
+    const obs = new IntersectionObserver(([e]) => {
+      if (e.isIntersecting) setVisible(true);
+    }, { threshold: 0.3 });
+    if (ref.current) obs.observe(ref.current);
+    return () => obs.disconnect();
+  }, []);
+  const count2 = useCountUp(stat.value, 1400, visible);
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    "div",
+    {
+      ref,
+      className: `reveal tilt-card rounded-2xl p-6 border bg-gradient-to-br ${stat.bg} ${stat.border} text-center group cursor-default`,
+      style: { transitionDelay: `${index2 * 100}ms` },
+      children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: `text-4xl md:text-5xl font-extrabold mb-2 ${stat.color} transition-all duration-300`, children: [
+          count2,
+          stat.suffix
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-gray-400 text-sm font-medium tracking-wide", children: stat.label })
+      ]
+    }
+  );
+}
+const orbitIcons = [
+  { Icon: Brain, angle: 0, color: "text-blue-400" },
+  { Icon: Bot, angle: 60, color: "text-purple-400" },
+  { Icon: CodeXml, angle: 120, color: "text-cyan-400" },
+  { Icon: Database, angle: 180, color: "text-green-400" },
+  { Icon: Cpu, angle: 240, color: "text-yellow-400" },
+  { Icon: Sparkles, angle: 300, color: "text-pink-400" }
+];
+const Index = () => {
+  const typed = useTypewriter(roles);
+  const [orbitAngle, setOrbitAngle] = reactExports.useState(0);
+  reactExports.useEffect(() => {
+    const id2 = requestAnimationFrame(function tick() {
+      setOrbitAngle((a) => (a + 0.15) % 360);
+      requestAnimationFrame(tick);
+    });
+    return () => cancelAnimationFrame(id2);
+  }, []);
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-h-screen", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "relative min-h-screen flex items-center justify-center pt-16", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute inset-0 pointer-events-none overflow-hidden", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute top-1/4 left-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl animate-pulse" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute top-1/3 right-1/4 w-80 h-80 bg-purple-600/20 rounded-full blur-3xl animate-pulse", style: { animationDelay: "1s" } }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute bottom-1/4 left-1/2 w-72 h-72 bg-cyan-600/15 rounded-full blur-3xl animate-pulse", style: { animationDelay: "2s" } }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "div",
+          {
+            className: "absolute inset-0 opacity-[0.03]",
+            style: {
+              backgroundImage: "linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px)",
+              backgroundSize: "60px 60px"
+            }
+          }
+        )
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-2 gap-16 items-center", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "order-2 lg:order-1 flex justify-center animate-fade-in", style: { animationDelay: "0.3s" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative w-80 h-80", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-[-40px] rounded-full border border-blue-500/15" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-[-80px] rounded-full border border-purple-500/10" }),
+          orbitIcons.map(({ Icon: Icon2, angle, color }, i) => {
+            const rad = (angle + orbitAngle) * Math.PI / 180;
+            const r2 = 180;
+            const x2 = Math.cos(rad) * r2;
+            const y2 = Math.sin(rad) * r2;
+            return /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "div",
+              {
+                className: `absolute w-9 h-9 rounded-xl glass flex items-center justify-center ${color} shadow-lg`,
+                style: {
+                  left: `calc(50% + ${x2}px - 18px)`,
+                  top: `calc(50% + ${y2}px - 18px)`
+                },
+                children: /* @__PURE__ */ jsxRuntimeExports.jsx(Icon2, { size: 16 })
+              },
+              i
+            );
+          }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-[3px] animate-glow-pulse shadow-2xl shadow-blue-500/30", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full h-full rounded-full bg-gray-900 overflow-hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
             "img",
             {
-              src: "https://i.postimg.cc/JnT9NyfL/Linked-In-Profile-UPSCALED.png",
-              alt: "Divyanshu's Profile",
-              className: "w-64 h-64 rounded-full object-cover"
+              src: profileImg,
+              alt: "Divyanshu Kumar",
+              className: "w-full h-full object-cover rounded-full"
             }
-          ) }) }) }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 opacity-30 animate-ping" })
+          ) }) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute bottom-2 right-2 flex items-center gap-2 glass rounded-full px-3 py-1.5 text-xs font-medium text-white shadow-lg", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "status-dot" }),
+            "Open to work"
+          ] })
         ] }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "order-1 lg:order-2 text-center lg:text-left", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "text-5xl md:text-7xl font-bold mb-6 animate-fade-in", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "inline-flex items-center gap-2 glass rounded-full px-4 py-1.5 mb-6 animate-fade-in", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Sparkles, { size: 14, className: "text-yellow-400" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-sm text-gray-300 font-medium", children: "B.Tech CSE · CGPA 8.55 · Graduated 2025" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "text-5xl md:text-6xl lg:text-7xl font-extrabold mb-4 animate-fade-in leading-tight", style: { animationDelay: "0.1s" }, children: [
             "Hi, I'm",
             " ",
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent", children: "Divyanshu" }),
-            " ",
-            "👋"
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "gradient-text-animated", children: "Divyanshu" })
           ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl md:text-2xl text-gray-300 mb-8 animate-fade-in delay-300", children: "I build real-world AI solutions that make a difference" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-gray-400 mb-8 max-w-2xl animate-fade-in delay-500", children: "Final-year CSE student passionate about Data Science, Machine Learning, and creating intelligent automation that solves complex problems." }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in delay-700", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Button, { asChild: true, size: "lg", className: "bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-300", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/projects", children: [
-              "View My Work ",
-              /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowRight, { className: "ml-2", size: 20 })
-            ] }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Button, { asChild: true, variant: "outline", size: "lg", className: "border-blue-500 text-blue-400 hover:bg-blue-600/20 transform hover:scale-105 transition-all duration-300", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/contact", children: [
-              "Let's Connect ",
-              /* @__PURE__ */ jsxRuntimeExports.jsx(Download, { className: "ml-2", size: 20 })
-            ] }) })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "h-10 mb-6 animate-fade-in", style: { animationDelay: "0.2s" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-xl md:text-2xl text-gray-300 font-medium", children: [
+            typed,
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "inline-block w-0.5 h-6 bg-blue-400 ml-0.5 animate-blink" })
+          ] }) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-base md:text-lg text-gray-400 mb-8 max-w-xl leading-relaxed animate-fade-in", style: { animationDelay: "0.3s" }, children: "I build production-ready AI systems: autonomous agents, RAG pipelines, edge robotics, and backend services. Turning complex problems into elegant, measurable solutions." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row gap-3 justify-center lg:justify-start animate-fade-in", style: { animationDelay: "0.4s" }, children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              Button,
+              {
+                asChild: true,
+                size: "lg",
+                className: "group bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 transition-all duration-300 hover:scale-105",
+                children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/projects", children: [
+                  "View My Work",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowRight, { size: 18, className: "ml-2 group-hover:translate-x-1 transition-transform duration-200" })
+                ] })
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(ResumeDownload, { variant: "hero" })
           ] })
         ] })
       ] }) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-6 h-10 border-2 border-blue-400 rounded-full flex justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-1 h-3 bg-blue-400 rounded-full mt-2 animate-pulse" }) }) })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "py-20 bg-black/20", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 md:grid-cols-4 gap-8 text-center", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "transform hover:scale-105 transition-all duration-300", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-4xl font-bold text-blue-400 mb-2", children: "5+" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-gray-300", children: "AI Projects" })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "transform hover:scale-105 transition-all duration-300", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-4xl font-bold text-purple-400 mb-2", children: "3" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-gray-300", children: "Internships" })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "transform hover:scale-105 transition-all duration-300", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-4xl font-bold text-cyan-400 mb-2", children: "95%" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-gray-300", children: "Model Accuracy" })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "transform hover:scale-105 transition-all duration-300", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-4xl font-bold text-green-400 mb-2", children: "2" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-gray-300", children: "Hackathon Wins" })
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs text-gray-500 tracking-widest uppercase", children: "Scroll" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-5 h-9 border-2 border-gray-600 rounded-full flex justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-1 h-2.5 bg-blue-400 rounded-full mt-1.5 animate-pulse" }) })
       ] })
-    ] }) }) })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "py-20 relative overflow-hidden", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-b from-transparent via-blue-950/20 to-transparent pointer-events-none" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 md:grid-cols-4 gap-6", children: stats.map((stat, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(StatCard, { stat, index: i }, i)) }) })
+    ] })
   ] });
 };
+function useScrollReveal() {
+  const containerRef = reactExports.useRef(null);
+  reactExports.useEffect(() => {
+    const targets = document.querySelectorAll(
+      ".reveal, .reveal-left, .reveal-right, .reveal-scale"
+    );
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
+    );
+    targets.forEach((el2) => observer.observe(el2));
+    return () => observer.disconnect();
+  }, []);
+  return containerRef;
+}
+const strengths = [
+  { icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Target, { className: "text-blue-400", size: 28 }), title: "Problem Solving", desc: "Systems-level thinking to architect complex AI pipelines", color: "blue" },
+  { icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Lightbulb, { className: "text-purple-400", size: 28 }), title: "Rapid Prototyping", desc: "From idea to working prototype in hours, not weeks", color: "purple" },
+  { icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Users, { className: "text-cyan-400", size: 28 }), title: "Collaboration", desc: "Cross-functional teamwork across hardware, AI, and backend", color: "cyan" },
+  { icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Zap, { className: "text-green-400", size: 28 }), title: "Adaptability", desc: "Quick to learn new frameworks, domains, and constraints", color: "green" }
+];
+const colorMap$2 = {
+  blue: "border-blue-500/20",
+  purple: "border-purple-500/20",
+  cyan: "border-cyan-500/20",
+  green: "border-green-500/20"
+};
 const About = () => {
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "min-h-screen pt-24 pb-12", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-16", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent", children: "About Me" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl text-gray-400 max-w-3xl mx-auto", children: "Passionate about building AI-driven solutions that bridge the gap between innovative technology and real-world applications." })
+  useScrollReveal();
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "min-h-screen pt-24 pb-20", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-6xl mx-auto px-4 sm:px-6 lg:px-8", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-16 reveal", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "inline-block text-xs font-semibold tracking-widest text-purple-400 uppercase mb-3", children: "Who I Am" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-5xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent", children: "About Me" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-lg max-w-2xl mx-auto", children: "Building intelligent systems that bridge the gap between cutting-edge AI research and real-world production." })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold text-blue-400 mb-4", children: "My Story" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-300 text-lg leading-relaxed", children: "I'm a CSE student passionate about AI-driven automation. I specialize in building end-to-end ML solutions that solve real-world problems—be it smart vision systems or customer churn prediction." }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-300 text-lg leading-relaxed", children: "With a strong grip on Python, C++, and machine learning libraries, I aim to contribute to the tech I love using. My journey has been driven by curiosity and the desire to create intelligent systems that make a meaningful impact." }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-300 text-lg leading-relaxed", children: "From winning hackathons to delivering real-world data science projects, I'm constantly pushing the boundaries of what's possible with AI and automation." })
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-5 gap-12 mb-20 items-start", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:col-span-3 space-y-5 reveal-left", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold text-white", children: "My Story" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-300 text-base leading-relaxed", children: "I'm an AI engineer who graduated in 2025 from Dumka Engineering College with a B.Tech in CSE (CGPA 8.55). Over the past year I've built production-grade systems: autonomous vulnerability remediation agents, edge AI robotics, RAG-powered chatbots, and data science pipelines, across 4 different companies." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-gray-300 text-base leading-relaxed", children: [
+          "My work spans the full spectrum: ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-blue-400 font-medium", children: "agentic LLM systems" }),
+          " (LangChain, LangGraph, ReAct) at one end and ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-cyan-400 font-medium", children: "embedded IoT robotics" }),
+          " (Raspberry Pi, NodeMCU, MQTT) at the other, with Python backend services and computer vision tying them together."
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-300 text-base leading-relaxed", children: "I've won hackathons, co-authored research (PU Learning for gene classification), and delivered automation that measurably cuts manual effort by 50-70%. What drives me is shipping things that actually run in production, not just notebooks." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-4 pt-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "mailto:work.kumardivyanshu@gmail.com", className: "flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Mail, { size: 14, className: "text-blue-400" }),
+            " work.kumardivyanshu@gmail.com"
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "https://github.com/lufiDK4674", target: "_blank", rel: "noopener noreferrer", className: "flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Github, { size: 14, className: "text-gray-400" }),
+            " lufiDK4674"
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "flex items-center gap-2 text-sm text-gray-400", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { size: 14, className: "text-red-400" }),
+            " Jharkhand / Gandhinagar, India"
+          ] })
+        ] })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-col items-center space-y-8", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-64 h-64 rounded-2xl bg-gradient-to-r from-blue-500 to-purple-600 p-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full h-full rounded-2xl bg-gray-800 flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-56 h-56 rounded-2xl bg-gradient-to-br from-gray-700 to-gray-600 flex items-center justify-center text-4xl font-bold text-blue-400", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-        "img",
-        {
-          src: "https://i.postimg.cc/JnT9NyfL/Linked-In-Profile-UPSCALED.png",
-          alt: "Divyanshu's Profile",
-          className: "w-55 h-55 object-cover"
-        }
-      ) }) }) }) }) })
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:col-span-2 reveal-right flex flex-col gap-5", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "glass rounded-2xl p-1 border border-white/10 overflow-hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full aspect-square bg-gradient-to-br from-blue-500/20 to-purple-600/20 rounded-xl overflow-hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "img",
+          {
+            src: profileImg,
+            alt: "Divyanshu Kumar",
+            className: "w-full h-full object-cover"
+          }
+        ) }) }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "glass rounded-2xl p-5 border border-white/10 space-y-3", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-sm font-semibold text-gray-300 uppercase tracking-widest mb-4", children: "Quick Facts" }),
+          [
+            ["🎓", "B.Tech CSE · CGPA 8.55 · 2025"],
+            ["🏢", "4 companies · 1+ year"],
+            ["🤖", "AI Agents · Robotics · Backend"],
+            ["🏆", "2× Hackathon winner"],
+            ["📄", "Research paper (PU Learning)"],
+            ["📍", "Open to remote & relocation"]
+          ].map(([icon, text], i) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3 text-sm text-gray-400", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-base", children: icon }),
+            text
+          ] }, i))
+        ] })
+      ] })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-16", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-20 reveal", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold text-center mb-8 text-blue-400", children: "Education" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-gray-800/50 rounded-lg p-8 border border-blue-500/20", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center space-x-4", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(GraduationCap, { className: "text-blue-400", size: 48 }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-2xl font-bold text-white", children: "B.Tech in Computer Science Engineering" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-lg", children: "Final Year Student" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-500", children: "Specialization in AI/ML and Data Science" })
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "glass rounded-2xl p-8 border border-blue-500/20", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row items-start sm:items-center gap-5", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center flex-shrink-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx(GraduationCap, { className: "text-white", size: 28 }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex-1", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-bold text-white", children: "B.Tech in Computer Science & Engineering" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-blue-400 font-semibold mt-0.5", children: "Dumka Engineering College, Jharkhand" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-sm mt-1", children: "Graduated 2025 · CGPA: 8.55 / 10" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-500 text-sm mt-1", children: "Relevant Coursework: Data Structures, Algorithms, OS, DBMS, AI, Networking" })
         ] })
       ] }) })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold text-center mb-8 text-blue-400", children: "Core Strengths" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-gray-800/50 rounded-lg p-6 border border-blue-500/20 text-center hover:bg-gray-700/50 transition-all duration-300 transform hover:scale-105", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(Target, { className: "text-blue-400 mx-auto mb-4", size: 48 }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-bold text-white mb-2", children: "Problem Solving" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400", children: "Analytical thinking to break down complex challenges" })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-gray-800/50 rounded-lg p-6 border border-purple-500/20 text-center hover:bg-gray-700/50 transition-all duration-300 transform hover:scale-105", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(Lightbulb, { className: "text-purple-400 mx-auto mb-4", size: 48 }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-bold text-white mb-2", children: "Critical Thinking" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400", children: "Data-driven decision making and solution optimization" })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-gray-800/50 rounded-lg p-6 border border-cyan-500/20 text-center hover:bg-gray-700/50 transition-all duration-300 transform hover:scale-105", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(Users, { className: "text-cyan-400 mx-auto mb-4", size: 48 }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-bold text-white mb-2", children: "Team Collaboration" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400", children: "Effective communication and cross-functional teamwork" })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-gray-800/50 rounded-lg p-6 border border-green-500/20 text-center hover:bg-gray-700/50 transition-all duration-300 transform hover:scale-105", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-green-400 mx-auto mb-4 text-5xl", children: "⚡" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-bold text-white mb-2", children: "Adaptability" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400", children: "Quick learning and adaptation to new technologies" })
-        ] })
-      ] })
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "reveal", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold text-center mb-10 text-purple-400", children: "Core Strengths" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5", children: strengths.map((s, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+        "div",
+        {
+          className: `reveal-scale glow-card glass rounded-2xl p-6 border text-center ${colorMap$2[s.color]}`,
+          style: { transitionDelay: `${i * 100}ms` },
+          children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-12 h-12 rounded-xl bg-white/5 flex items-center justify-center mx-auto mb-4", children: s.icon }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-base font-bold text-white mb-2", children: s.title }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-sm leading-relaxed", children: s.desc })
+          ]
+        },
+        i
+      )) })
     ] })
   ] }) });
+};
+const experiences = [
+  {
+    title: "AI Automation Engineer",
+    company: "Sec4Sys Technologies Pvt Ltd",
+    period: "Nov 2025 – Present",
+    location: "Freelance · Remote",
+    description: "Building end-to-end AI automation systems for vulnerability remediation, reducing manual analysis effort by 50–70%.",
+    achievements: [
+      "Architected a ReAct-style autonomous remediation agent (report parsing → retrieval → fix generation → PR creation)",
+      "Built RAG-based remediation engine over CVE/CWE datasets using ChromaDB, reducing debugging time from hours to minutes",
+      "Automated full workflow from ingestion to PR creation, achieving near hands-free remediation for recurring vulnerabilities",
+      "Deployed modular microservices using Docker, reducing deployment/setup time by 40%"
+    ],
+    color: "blue",
+    tag: "Current"
+  },
+  {
+    title: "AI & Robotics Engineer / Mentor",
+    company: "Tech Genius Institute",
+    period: "Aug 2025 – Present",
+    location: "Gandhinagar, India",
+    description: "Delivering STEM, AI, ML and Robotics education while building production AI systems for the institute.",
+    achievements: [
+      "Replaced manual employee tracking with an automated workflow system, reducing manual data entry by 60%",
+      "Built AI-driven notification engine generating personalized email and WhatsApp alerts",
+      "Developed backend systems integrating IoT devices (NodeMCU + sensors) with AI pipelines for real-time monitoring",
+      "Delivered 15+ deployable prototypes as part of student mentorship"
+    ],
+    color: "purple",
+    tag: "Current"
+  },
+  {
+    title: "Data Science Intern",
+    company: "TechInterex",
+    period: "Feb 2025 – Apr 2025",
+    location: "Remote",
+    description: "Delivered 5+ real-world data science projects using NLP, classification models, and ML pipelines.",
+    achievements: [
+      "Built fake news detection model with 95% accuracy using TF-IDF and Passive Aggressive Classifier",
+      "Implemented churn prediction pipeline achieving 94% precision with ETL and dashboard visualizations",
+      "Automated model evaluation and result tracking using F1-score and ROC-AUC reporting"
+    ],
+    color: "cyan",
+    tag: null
+  },
+  {
+    title: "AI Intern",
+    company: "Gyantu",
+    period: "Nov 2024 – Jan 2025",
+    location: "Remote",
+    description: "Built a RAG-powered AI chatbot using LLaMA 3.2, LangChain, and ChromaDB with a Streamlit interface.",
+    achievements: [
+      "Developed modular AI backend for conversational systems with service-oriented architecture",
+      "Implemented Retrieval-Augmented Generation pipelines including document ingestion and semantic search",
+      "Built Streamlit interface with clear backend–frontend separation, improving engagement by 40%"
+    ],
+    color: "green",
+    tag: null
+  },
+  {
+    title: "App Developer Trainee",
+    company: "Lawazia Tech",
+    period: "Nov 2023 – Dec 2023",
+    location: "Remote",
+    description: "Developed a full-stack blog application with authentication, dark/light mode, and responsive design.",
+    achievements: [
+      "Designed and developed full-stack blog application with modern UI",
+      "Optimized code structure and navigation, improving performance by 30%"
+    ],
+    color: "yellow",
+    tag: null
+  }
+];
+const hackathons = [
+  {
+    title: "Innovathon Winner",
+    event: "BIT Sindri",
+    position: "3rd Place 🏆",
+    description: "Built an AI system to detect food freshness, logos, and text with automated conveyor monitoring, in a 24-hour hackathon.",
+    color: "yellow"
+  },
+  {
+    title: "HackFest'24 Finalist",
+    event: "IIT ISM Dhanbad",
+    position: "Finalist 🥈",
+    description: "Developed a churn prediction model analyzing user sentiment and behavior for smarter retention decisions, in a 36-hour hackathon.",
+    color: "green"
+  }
+];
+const achievements = [
+  "Ranked Top 3 in C/C++ programming on institutional leaderboard",
+  "Research paper on Gene Ontology Classification (PU Learning) currently under verification",
+  "CGPA: 8.55/10 · B.Tech CSE, Dumka Engineering College (Graduated 2025)"
+];
+const colorMap$1 = {
+  blue: "border-blue-500/30 hover:border-blue-500/60",
+  purple: "border-purple-500/30 hover:border-purple-500/60",
+  cyan: "border-cyan-500/30 hover:border-cyan-500/60",
+  green: "border-green-500/30 hover:border-green-500/60",
+  yellow: "border-yellow-500/30 hover:border-yellow-500/60"
+};
+const dotMap = {
+  blue: "bg-blue-500 shadow-blue-500/50",
+  purple: "bg-purple-500 shadow-purple-500/50",
+  cyan: "bg-cyan-500 shadow-cyan-500/50",
+  green: "bg-green-500 shadow-green-500/50",
+  yellow: "bg-yellow-500 shadow-yellow-500/50"
+};
+const tagMap = {
+  blue: "bg-blue-500/20 text-blue-300 border-blue-500/30",
+  purple: "bg-purple-500/20 text-purple-300 border-purple-500/30"
 };
 const Experience = () => {
-  const experiences = [
-    {
-      title: "Data Science Intern",
-      company: "TechInterex",
-      period: "Feb 2025 – Present",
-      location: "Remote",
-      description: "Delivered 5+ real-world data science projects using NLP and classification models.",
-      achievements: [
-        "Built advanced NLP models for text classification",
-        "Implemented machine learning pipelines for production deployment",
-        "Collaborated with cross-functional teams on AI solutions"
-      ],
-      color: "blue"
-    },
-    {
-      title: "AI Intern",
-      company: "Gyantu",
-      period: "Nov 2024 – Jan 2025",
-      location: "Remote",
-      description: "Built an AI-powered chatbot with Streamlit, boosting engagement by 40%.",
-      achievements: [
-        "Developed conversational AI using advanced language models",
-        "Created intuitive UI/UX with Streamlit framework",
-        "Achieved 40% increase in user engagement metrics"
-      ],
-      color: "purple"
-    },
-    {
-      title: "App Developer Trainee",
-      company: "Lawazia Tech",
-      period: "Nov 2023 – Dec 2023",
-      location: "Remote",
-      description: "Created a blog app with dark mode and streamlined UI.",
-      achievements: [
-        "Designed and developed full-stack blog application",
-        "Implemented modern dark mode interface",
-        "Optimized user experience with responsive design"
-      ],
-      color: "cyan"
-    }
-  ];
-  const hackathons = [
-    {
-      title: "Innovathon Winner",
-      event: "BIT Sindri",
-      position: "🏆 3rd Place",
-      description: "Built an AI system to detect food freshness, logos, and text with automated conveyor monitoring in 24 hours hackathon.",
-      color: "yellow"
-    },
-    {
-      title: "HackFest'24 Finalist",
-      event: "IIT ISM Dhanbad",
-      position: "🥈 Finalist",
-      description: "Developed a churn prediction model analyzing user sentiment and behavior for smarter business decisions and retention in 36-hour hackathon ",
-      color: "green"
-    }
-  ];
-  const getColorClasses = (color) => {
-    const colors = {
-      blue: "border-blue-500/20 hover:border-blue-500/40",
-      purple: "border-purple-500/20 hover:border-purple-500/40",
-      cyan: "border-cyan-500/20 hover:border-cyan-500/40",
-      yellow: "border-yellow-500/20 hover:border-yellow-500/40",
-      green: "border-green-500/20 hover:border-green-500/40"
-    };
-    return colors[color] || colors.blue;
-  };
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "min-h-screen pt-24 pb-12", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-16", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent", children: "Experience" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl text-gray-400 max-w-3xl mx-auto", children: "My journey through internships, projects, and achievements in the world of AI and technology." })
+  useScrollReveal();
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "min-h-screen pt-24 pb-20", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-5xl mx-auto px-4 sm:px-6 lg:px-8", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-20 reveal", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "inline-block text-xs font-semibold tracking-widest text-blue-400 uppercase mb-3", children: "Career" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-5xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent", children: "Experience" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-lg max-w-2xl mx-auto", children: "From building autonomous AI agents to mentoring the next generation of engineers." })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-16", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold text-center mb-12 text-blue-400", children: "Professional Experience" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-8", children: experiences.map((exp, index2) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
-        "div",
-        {
-          className: `bg-gray-800/50 rounded-lg p-8 border ${getColorClasses(exp.color)} hover:bg-gray-700/50 transition-all duration-300 transform hover:scale-105`,
-          children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-2xl font-bold text-white mb-2", children: exp.title }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl text-blue-400 font-semibold", children: exp.company })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col lg:items-end mt-2 lg:mt-0", children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center text-gray-400 mb-1", children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsx(Calendar, { size: 16, className: "mr-2" }),
-                  exp.period
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative mb-24", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute left-6 md:left-1/2 top-0 bottom-0 w-px timeline-line md:-translate-x-1/2" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-12", children: experiences.map((exp, i) => {
+        const isLeft = i % 2 === 0;
+        return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "div",
+          {
+            className: `relative flex items-start gap-8 md:gap-0 ${isLeft ? "md:flex-row" : "md:flex-row-reverse"} ${isLeft ? "reveal-left" : "reveal-right"}`,
+            style: { transitionDelay: `${i * 80}ms` },
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute left-6 md:left-1/2 md:-translate-x-1/2 top-6 z-10", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `w-3 h-3 rounded-full ${dotMap[exp.color]} shadow-lg ring-2 ring-gray-900` }) }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `ml-16 md:ml-0 w-full md:w-[46%] ${isLeft ? "md:mr-auto md:pr-8" : "md:ml-auto md:pl-8"}`, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: `glass-blue glow-card rounded-2xl p-6 border ${colorMap$1[exp.color]} transition-all duration-300`, children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start justify-between flex-wrap gap-2 mb-3", children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-bold text-white leading-tight", children: exp.title }),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-blue-400 font-semibold mt-0.5", children: exp.company })
+                  ] }),
+                  exp.tag && /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: `text-xs font-semibold px-2.5 py-1 rounded-full border ${tagMap[exp.color]}`, children: exp.tag })
                 ] }),
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center text-gray-400", children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { size: 16, className: "mr-2" }),
-                  exp.location
-                ] })
-              ] })
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-300 text-lg mb-4", children: exp.description }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-2", children: exp.achievements.map((achievement, achIndex) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400", children: achievement })
-            ] }, achIndex)) })
-          ]
-        },
-        index2
-      )) })
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-3 text-xs text-gray-500 mb-4", children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "flex items-center gap-1.5", children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsx(Calendar, { size: 12 }),
+                    " ",
+                    exp.period
+                  ] }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "flex items-center gap-1.5", children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { size: 12 }),
+                    " ",
+                    exp.location
+                  ] })
+                ] }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-sm mb-4 leading-relaxed", children: exp.description }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2", children: exp.achievements.map((a, j2) => /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-2 text-sm text-gray-400", children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: `mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0 ${dotMap[exp.color].split(" ")[0]}` }),
+                  a
+                ] }, j2)) })
+              ] }) })
+            ]
+          },
+          i
+        );
+      }) })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold text-center mb-12 text-purple-400", children: "Hackathons & Achievements" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-8", children: hackathons.map((hackathon, index2) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-20", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold text-center mb-10 reveal", children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent", children: "Hackathons & Competitions" }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-8", children: hackathons.map((h, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
         "div",
         {
-          className: `bg-gray-800/50 rounded-lg p-8 border ${getColorClasses(hackathon.color)} hover:bg-gray-700/50 transition-all duration-300 transform hover:scale-105 text-center`,
+          className: `reveal-scale glass-blue glow-card rounded-2xl p-8 border ${colorMap$1[h.color]} text-center`,
+          style: { transitionDelay: `${i * 100}ms` },
           children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Trophy, { className: "text-yellow-400 mx-auto mb-4", size: 48 }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-2xl font-bold text-white mb-2", children: hackathon.title }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-blue-400 font-semibold mb-2", children: hackathon.event }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-2xl mb-4", children: hackathon.position }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400", children: hackathon.description })
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Trophy, { className: "text-yellow-400 mx-auto mb-4 animate-float", size: 48 }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-2xl font-bold text-white mb-1", children: h.title }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-blue-400 font-semibold mb-2", children: h.event }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-2xl mb-4", children: h.position }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-sm leading-relaxed", children: h.description })
           ]
         },
-        index2
+        i
       )) })
-    ] })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "reveal", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "glass rounded-2xl p-8 border border-white/10", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "text-2xl font-bold text-white mb-6 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 20, className: "text-blue-400" }),
+        "Other Achievements"
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-3", children: achievements.map((a, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-3 text-gray-400", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "mt-1.5 w-2 h-2 rounded-full bg-gradient-to-br from-blue-400 to-purple-400 flex-shrink-0" }),
+        a
+      ] }, i)) })
+    ] }) })
   ] }) });
 };
-const Skills = () => {
-  const skillCategories = [
+const skillCategories = [
+  {
+    title: "AI & Agents",
+    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Bot, { className: "text-blue-400", size: 28 }),
+    skills: ["LangChain", "LangGraph", "CrewAI", "RAG Pipelines", "ReAct Agents", "Prompt Engineering", "OpenAI API", "Anthropic API"],
+    color: "blue"
+  },
+  {
+    title: "Machine Learning",
+    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Brain, { className: "text-purple-400", size: 28 }),
+    skills: ["Regression", "Classification", "Clustering", "Deep Learning", "NLP", "PU Learning", "Computer Vision", "Transformers"],
+    color: "purple"
+  },
+  {
+    title: "Frameworks & Libraries",
+    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Layers, { className: "text-cyan-400", size: 28 }),
+    skills: ["TensorFlow", "PyTorch", "Scikit-learn", "OpenCV", "YOLOv8", "Pandas", "NumPy", "LLaMA"],
+    color: "cyan"
+  },
+  {
+    title: "Backend & APIs",
+    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Database, { className: "text-green-400", size: 28 }),
+    skills: ["FastAPI", "Flask", "REST APIs", "Microservices", "Docker", "ChromaDB", "PgVector", "PostgreSQL"],
+    color: "green"
+  },
+  {
+    title: "Programming Languages",
+    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Code, { className: "text-yellow-400", size: 28 }),
+    skills: ["Python", "C++", "C", "SQL", "JavaScript", "HTML/CSS"],
+    color: "yellow"
+  },
+  {
+    title: "Platforms & Tools",
+    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Globe, { className: "text-orange-400", size: 28 }),
+    skills: ["Linux", "Git", "GitHub", "Docker", "Streamlit", "Power BI", "Jupyter", "n8n"],
+    color: "orange"
+  },
+  {
+    title: "Hardware & IoT",
+    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Wrench, { className: "text-red-400", size: 28 }),
+    skills: ["NodeMCU", "Raspberry Pi", "IR Sensors", "Arduino", "MQTT", "ESP-NOW", "Robotics"],
+    color: "red"
+  },
+  {
+    title: "Dev & Engineering",
+    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Cpu, { className: "text-pink-400", size: 28 }),
+    skills: ["SDLC", "Agile", "DSA", "OS", "DBMS", "Networking", "Testing", "CI/CD"],
+    color: "pink"
+  }
+];
+const proficiencies = [
+  { name: "Python", pct: 95, gradient: "from-blue-500 to-cyan-400" },
+  { name: "Machine Learning", pct: 90, gradient: "from-purple-500 to-pink-400" },
+  { name: "LLMs & RAG", pct: 88, gradient: "from-violet-500 to-purple-400" },
+  { name: "Deep Learning", pct: 85, gradient: "from-cyan-500 to-blue-400" },
+  { name: "Data Analysis", pct: 88, gradient: "from-green-500 to-emerald-400" },
+  { name: "Backend (FastAPI)", pct: 82, gradient: "from-green-500 to-teal-400" },
+  { name: "Computer Vision", pct: 85, gradient: "from-orange-500 to-amber-400" },
+  { name: "C / C++", pct: 80, gradient: "from-yellow-500 to-orange-400" }
+];
+const colorMap = {
+  blue: "border-blue-500/20 hover:border-blue-500/40 hover:bg-blue-500/5",
+  purple: "border-purple-500/20 hover:border-purple-500/40 hover:bg-purple-500/5",
+  cyan: "border-cyan-500/20 hover:border-cyan-500/40 hover:bg-cyan-500/5",
+  green: "border-green-500/20 hover:border-green-500/40 hover:bg-green-500/5",
+  yellow: "border-yellow-500/20 hover:border-yellow-500/40 hover:bg-yellow-500/5",
+  orange: "border-orange-500/20 hover:border-orange-500/40 hover:bg-orange-500/5",
+  red: "border-red-500/20 hover:border-red-500/40 hover:bg-red-500/5",
+  pink: "border-pink-500/20 hover:border-pink-500/40 hover:bg-pink-500/5"
+};
+const badgeMap = {
+  blue: "bg-blue-500/15 text-blue-300 border-blue-500/25",
+  purple: "bg-purple-500/15 text-purple-300 border-purple-500/25",
+  cyan: "bg-cyan-500/15 text-cyan-300 border-cyan-500/25",
+  green: "bg-green-500/15 text-green-300 border-green-500/25",
+  yellow: "bg-yellow-500/15 text-yellow-300 border-yellow-500/25",
+  orange: "bg-orange-500/15 text-orange-300 border-orange-500/25",
+  red: "bg-red-500/15 text-red-300 border-red-500/25",
+  pink: "bg-pink-500/15 text-pink-300 border-pink-500/25"
+};
+function AnimatedBar({ pct, gradient }) {
+  const ref = reactExports.useRef(null);
+  const [width, setWidth] = reactExports.useState(0);
+  reactExports.useEffect(() => {
+    const obs = new IntersectionObserver(([e]) => {
+      if (e.isIntersecting) {
+        setTimeout(() => setWidth(pct), 200);
+        obs.disconnect();
+      }
+    }, { threshold: 0.5 });
+    if (ref.current) obs.observe(ref.current);
+    return () => obs.disconnect();
+  }, [pct]);
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { ref, className: "w-full bg-gray-800/80 rounded-full h-2.5 overflow-hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "div",
     {
-      title: "Programming Languages",
-      icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Code, { className: "text-blue-400", size: 32 }),
-      skills: ["C", "C++", "Python"],
-      color: "blue"
-    },
-    {
-      title: "ML/Data Science",
-      icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Brain, { className: "text-purple-400", size: 32 }),
-      skills: ["Regression", "Classification", "Clustering", "Deep Learning", "NLP"],
-      color: "purple"
-    },
-    {
-      title: "Libraries & Frameworks",
-      icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Database, { className: "text-cyan-400", size: 32 }),
-      skills: ["Scikit-learn", "TensorFlow", "OpenCV", "Pandas", "NumPy", "YOLOv8"],
-      color: "cyan"
-    },
-    {
-      title: "Development Platforms",
-      icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Cpu, { className: "text-green-400", size: 32 }),
-      skills: ["Linux", "GitHub", "Kaggle", "Jupyter Notebook", "Power BI"],
-      color: "green"
-    },
-    {
-      title: "Web Technologies",
-      icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Globe, { className: "text-yellow-400", size: 32 }),
-      skills: ["Streamlit", "Flask", "HTML/CSS", "JavaScript"],
-      color: "yellow"
-    },
-    {
-      title: "Hardware & IoT",
-      icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Wrench, { className: "text-red-400", size: 32 }),
-      skills: ["NodeMCU", "IR Sensors", "Arduino", "Robotics"],
-      color: "red"
+      className: `h-full rounded-full bg-gradient-to-r ${gradient} relative overflow-hidden transition-all duration-1000 ease-out`,
+      style: { width: `${width}%` },
+      children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 shimmer-bar" })
     }
-  ];
-  const getColorClasses = (color) => {
-    const colors = {
-      blue: "border-blue-500/20 hover:border-blue-500/40 hover:bg-blue-500/10",
-      purple: "border-purple-500/20 hover:border-purple-500/40 hover:bg-purple-500/10",
-      cyan: "border-cyan-500/20 hover:border-cyan-500/40 hover:bg-cyan-500/10",
-      green: "border-green-500/20 hover:border-green-500/40 hover:bg-green-500/10",
-      yellow: "border-yellow-500/20 hover:border-yellow-500/40 hover:bg-yellow-500/10",
-      red: "border-red-500/20 hover:border-red-500/40 hover:bg-red-500/10"
-    };
-    return colors[color] || colors.blue;
-  };
-  const getSkillBadgeColor = (color) => {
-    const colors = {
-      blue: "bg-blue-500/20 text-blue-300 border-blue-500/30",
-      purple: "bg-purple-500/20 text-purple-300 border-purple-500/30",
-      cyan: "bg-cyan-500/20 text-cyan-300 border-cyan-500/30",
-      green: "bg-green-500/20 text-green-300 border-green-500/30",
-      yellow: "bg-yellow-500/20 text-yellow-300 border-yellow-500/30",
-      red: "bg-red-500/20 text-red-300 border-red-500/30"
-    };
-    return colors[color] || colors.blue;
-  };
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "min-h-screen pt-24 pb-12", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-16", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent", children: "Skills & Technologies" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl text-gray-400 max-w-3xl mx-auto", children: "A comprehensive overview of my technical expertise across various domains of AI, software development, and emerging technologies." })
+  ) });
+}
+const Skills = () => {
+  useScrollReveal();
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "min-h-screen pt-24 pb-20", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-16 reveal", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "inline-block text-xs font-semibold tracking-widest text-cyan-400 uppercase mb-3", children: "Tech Stack" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-5xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent", children: "Skills" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-lg max-w-2xl mx-auto", children: "Full-stack AI expertise from autonomous agents to embedded systems." })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16", children: skillCategories.map((category, index2) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-20", children: skillCategories.map((cat, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
       "div",
       {
-        className: `bg-gray-800/50 rounded-lg p-8 border ${getColorClasses(category.color)} transition-all duration-300 transform hover:scale-105`,
+        className: `reveal-scale glow-card glass rounded-2xl p-6 border transition-all duration-300 ${colorMap[cat.color]}`,
+        style: { transitionDelay: `${i * 60}ms` },
         children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center mb-6", children: [
-            category.icon,
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-bold text-white ml-3", children: category.title })
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3 mb-4", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "p-2 rounded-xl bg-white/5", children: cat.icon }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-sm font-bold text-white", children: cat.title })
           ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-2", children: category.skills.map((skill, skillIndex) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-1.5", children: cat.skills.map((skill, j2) => /* @__PURE__ */ jsxRuntimeExports.jsx(
             "span",
             {
-              className: `px-3 py-1 rounded-full text-sm font-medium border ${getSkillBadgeColor(category.color)} hover:scale-110 transition-transform duration-200`,
+              className: `tech-badge text-xs ${badgeMap[cat.color]}`,
+              style: { animationDelay: `${j2 * 30}ms` },
               children: skill
             },
-            skillIndex
+            j2
           )) })
         ]
       },
-      index2
+      i
     )) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-gray-800/50 rounded-lg p-8 border border-blue-500/20", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold text-center mb-8 text-blue-400", children: "Proficiency Levels" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-8", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between mb-2", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white font-medium", children: "Python" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-blue-400", children: "95%" })
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full bg-gray-700 rounded-full h-3", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-gradient-to-r from-blue-500 to-cyan-500 h-3 rounded-full", style: { width: "95%" } }) })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between mb-2", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white font-medium", children: "Machine Learning" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-purple-400", children: "90%" })
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full bg-gray-700 rounded-full h-3", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-gradient-to-r from-purple-500 to-pink-500 h-3 rounded-full", style: { width: "90%" } }) })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between mb-2", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white font-medium", children: "Deep Learning" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-cyan-400", children: "85%" })
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full bg-gray-700 rounded-full h-3", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-gradient-to-r from-cyan-500 to-blue-500 h-3 rounded-full", style: { width: "85%" } }) })
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "reveal glass rounded-2xl p-8 border border-white/10", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-bold text-white mb-8 text-center", children: "Proficiency Levels" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6", children: proficiencies.map((item, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { transitionDelay: `${i * 60}ms` }, children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between mb-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-sm font-medium text-gray-300", children: item.name }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: `text-sm font-bold bg-gradient-to-r ${item.gradient} bg-clip-text text-transparent`, children: [
+            item.pct,
+            "%"
           ] })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between mb-2", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white font-medium", children: "Data Analysis" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-green-400", children: "88%" })
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full bg-gray-700 rounded-full h-3", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-gradient-to-r from-green-500 to-emerald-500 h-3 rounded-full", style: { width: "88%" } }) })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between mb-2", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white font-medium", children: "C/C++" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-yellow-400", children: "80%" })
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full bg-gray-700 rounded-full h-3", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-gradient-to-r from-yellow-500 to-orange-500 h-3 rounded-full", style: { width: "80%" } }) })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between mb-2", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white font-medium", children: "Web Development" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-red-400", children: "75%" })
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full bg-gray-700 rounded-full h-3", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-gradient-to-r from-red-500 to-pink-500 h-3 rounded-full", style: { width: "75%" } }) })
-          ] })
-        ] })
-      ] })
+        /* @__PURE__ */ jsxRuntimeExports.jsx(AnimatedBar, { pct: item.pct, gradient: item.gradient })
+      ] }, i)) })
     ] })
   ] }) });
 };
+const projects = [
+  {
+    title: "AutoFix AI: AI DevOps Automation Agent",
+    description: "Autonomous agent that detects code issues from logs/GitHub events and automatically generates fixes using LLM + RAG pipelines. Integrated semantic search and codebase retrieval for context-aware patch generation.",
+    technologies: ["Python", "LangChain", "LangGraph", "OpenAI", "RAG", "Docker", "FastAPI"],
+    category: "Agentic AI",
+    github: "#",
+    demo: "#",
+    featured: true,
+    gradient: "from-blue-600 to-cyan-500",
+    initials: "AFA",
+    image: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=600&h=220&q=80"
+  },
+  {
+    title: "Smart Vision Quality Control System",
+    description: "AI-based conveyor automation system for freshness detection, logo recognition, and text OCR. Integrated YOLOv8 with NodeMCU IR sensors for real-time system control. Won 3rd Place at BIT Sindri Innovathon.",
+    technologies: ["Python", "OpenCV", "YOLOv8", "TensorFlow", "Arduino", "NodeMCU"],
+    category: "Computer Vision",
+    github: "https://github.com/lufiDK4674/Smart-Vision_Quality-Testing-System",
+    demo: "#",
+    featured: true,
+    gradient: "from-purple-600 to-pink-500",
+    initials: "SV",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&h=220&q=80"
+  },
+  {
+    title: "AI-Powered Driver Monitoring System",
+    description: "Real-time edge AI system for drowsiness detection, emotion recognition, and driver behavior analysis. CNN and 3D-CNN inference via Flask backend with IoT hardware feedback using MQTT.",
+    technologies: ["Python", "CNN", "3D-CNN", "Flask", "NodeMCU", "MQTT", "OpenCV"],
+    category: "Computer Vision",
+    github: "#",
+    demo: "#",
+    featured: true,
+    gradient: "from-cyan-600 to-teal-500",
+    initials: "DMS",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&h=220&q=80"
+  },
+  {
+    title: "Interactive Talking Robot (Raspberry Pi 5)",
+    description: "Voice-interactive robotic assistant on Raspberry Pi 5 with Linux OS, integrating LLM reasoning and ElevenLabs speech synthesis for natural human-robot interaction.",
+    technologies: ["Python", "LLaMA", "ElevenLabs", "Raspberry Pi", "Linux", "LangChain"],
+    category: "Robotics",
+    github: "#",
+    demo: "#",
+    featured: true,
+    gradient: "from-green-600 to-emerald-500",
+    initials: "ITR",
+    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=600&h=220&q=80"
+  },
+  {
+    title: "Unified Customer Insights",
+    description: "Sentiment analysis + churn prediction model with 93% precision. HackFest'24 Finalist at IIT ISM. ETL pipeline and interactive dashboards for comprehensive customer analytics.",
+    technologies: ["Python", "Scikit-learn", "NLP", "Pandas", "Streamlit", "Plotly"],
+    category: "Data Science",
+    github: "https://github.com/lufiDK4674/Unified_Customer_Insights",
+    demo: "#",
+    featured: true,
+    gradient: "from-yellow-600 to-orange-500",
+    initials: "UCI",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&h=220&q=80"
+  },
+  {
+    title: "Gene Ontology Classification (Research)",
+    description: "PU learning framework for gene function classification on 8,000+ feature biological data. Implemented nnPU/uPU loss functions and transformer-based tabular models (TabTransformer). Research paper under verification.",
+    technologies: ["Python", "PyTorch", "TabTransformer", "PU Learning", "NumPy", "Scikit-learn"],
+    category: "Research",
+    github: "#",
+    demo: "#",
+    featured: false,
+    gradient: "from-rose-600 to-pink-500",
+    initials: "GOC",
+    image: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=600&h=220&q=80"
+  },
+  {
+    title: "Fake News Detection",
+    description: "95% accurate NLP model using TF-IDF and Passive Aggressive Classifier to identify and classify fake news articles across multiple domains.",
+    technologies: ["Python", "NLP", "Scikit-learn", "TF-IDF", "Pandas"],
+    category: "NLP",
+    github: "https://github.com/lufiDK4674/DataScience_Techinterex/tree/main/TASK%204",
+    demo: "#",
+    featured: false,
+    gradient: "from-indigo-600 to-blue-500",
+    initials: "FND",
+    image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=600&h=220&q=80"
+  },
+  {
+    title: "Conversational AI Chatbot (RAG)",
+    description: "Modular Python backend enabling document-aware Q&A using LangChain, ChromaDB, and LLaMA 3.2. Automated ingestion pipeline with semantic retrieval and agent-style chains.",
+    technologies: ["Python", "LangChain", "LLaMA 3.2", "ChromaDB", "Streamlit", "RAG"],
+    category: "Agentic AI",
+    github: "#",
+    demo: "#",
+    featured: false,
+    gradient: "from-violet-600 to-purple-500",
+    initials: "CAC",
+    image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&w=600&h=220&q=80"
+  },
+  {
+    title: "Retail Sales Analysis",
+    description: "Comprehensive data analysis and visualization of retail sales patterns with interactive dashboards and business intelligence solutions.",
+    technologies: ["Python", "Pandas", "Plotly", "Power BI", "SQL"],
+    category: "Data Science",
+    github: "https://github.com/lufiDK4674/DataScience_Techinterex/tree/main/TASK%207",
+    demo: "#",
+    featured: false,
+    gradient: "from-amber-600 to-yellow-500",
+    initials: "RSA",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=600&h=220&q=80"
+  },
+  {
+    title: "Swarm Robotics",
+    description: "Multi-robot coordination system using NodeMCU and IR sensors for autonomous swarm behaviour with ESP-NOW wireless communication.",
+    technologies: ["C++", "NodeMCU", "IR Sensors", "ESP-NOW", "Arduino IDE"],
+    category: "Robotics",
+    github: "#",
+    demo: "#",
+    featured: false,
+    gradient: "from-red-600 to-orange-500",
+    initials: "SR",
+    image: "https://images.unsplash.com/photo-1563206767-5b18f218e8de?auto=format&fit=crop&w=600&h=220&q=80"
+  }
+];
+const categories = ["All", "Agentic AI", "Computer Vision", "Robotics", "Data Science", "NLP", "Research"];
+const categoryColors = {
+  "Agentic AI": "bg-blue-500/20 text-blue-300 border-blue-500/30",
+  "Computer Vision": "bg-purple-500/20 text-purple-300 border-purple-500/30",
+  "Robotics": "bg-cyan-500/20 text-cyan-300 border-cyan-500/30",
+  "Data Science": "bg-green-500/20 text-green-300 border-green-500/30",
+  "NLP": "bg-yellow-500/20 text-yellow-300 border-yellow-500/30",
+  "Research": "bg-rose-500/20 text-rose-300 border-rose-500/30"
+};
 const Projects = () => {
   const [activeFilter, setActiveFilter] = reactExports.useState("All");
-  const projects = [
-    {
-      title: "Smart Vision Quality Control System",
-      description: "AI-based system for freshness and logo detection with conveyor automation using computer vision and machine learning.",
-      technologies: ["Python", "OpenCV", "YOLOv8", "TensorFlow", "Arduino"],
-      category: "AI",
-      image: "placeholder",
-      github: "https://github.com/lufiDK4674/Smart-Vision_Quality-Testing-System",
-      demo: "#",
-      featured: true
-    },
-    {
-      title: "Fake News Detection",
-      description: "95% accurate model using TF-IDF and Passive Aggressive Classifier to identify and classify fake news articles.",
-      technologies: ["Python", "NLP", "Scikit-learn", "TF-IDF", "Pandas"],
-      category: "NLP",
-      image: "placeholder",
-      github: "https://github.com/lufiDK4674/DataScience_Techinterex/tree/main/TASK%204",
-      demo: "#",
-      featured: true
-    },
-    {
-      title: "Unified Customer Insights",
-      description: "Sentiment analysis and churn prediction model with 93% precision for comprehensive customer analytics.",
-      technologies: ["Python", "Machine Learning", "Pandas", "Scikit-learn", "Streamlit"],
-      category: "AI",
-      image: "placeholder",
-      github: "https://github.com/lufiDK4674/Unified_Customer_Insights#",
-      demo: "#",
-      featured: true
-    },
-    {
-      title: "Retail Sales Analysis",
-      description: "Comprehensive data analysis and visualization of retail sales patterns with interactive dashboards.",
-      technologies: ["Python", "Pandas", "Plotly", "Power BI", "SQL"],
-      category: "Data Science",
-      image: "placeholder",
-      github: "https://github.com/lufiDK4674/DataScience_Techinterex/tree/main/TASK%207",
-      demo: "#",
-      featured: false
-    },
-    {
-      title: "Movie Recommender System",
-      description: "Collaborative filtering-based recommendation system with content-based filtering for personalized movie suggestions.",
-      technologies: ["Python", "Machine Learning", "Pandas", "Streamlit"],
-      category: "AI",
-      image: "placeholder",
-      github: "https://github.com/lufiDK4674/DataScience_Techinterex/tree/main/TASK%201",
-      demo: "#",
-      featured: false
-    },
-    {
-      title: "Swarm Robotics",
-      description: "Multi-robot coordination system using NodeMCU and IR sensors for autonomous swarm behavior.",
-      technologies: ["C++", "NodeMCU", "IR Sensors", "Arduino IDE"],
-      category: "Robotics",
-      image: "placeholder",
-      github: "#",
-      demo: "#",
-      featured: false
-    },
-    {
-      title: "Chatbot App using LLaMA 3.2",
-      description: "Intelligent conversational AI application built with LLaMA 3.2 and modern web technologies.",
-      technologies: ["Python", "LLaMA 3.2", "Streamlit", "NLP"],
-      category: "NLP",
-      image: "placeholder",
-      github: "#",
-      demo: "#",
-      featured: false
-    }
-  ];
-  const categories = ["All", "AI", "NLP", "Data Science", "Robotics"];
-  activeFilter === "All" ? projects : projects.filter((project) => project.category === activeFilter);
-  const featuredProjects = projects.filter((project) => project.featured);
-  const otherProjects = projects.filter((project) => !project.featured);
-  const getCategoryColor = (category) => {
-    const colors = {
-      "AI": "bg-blue-500/20 text-blue-300 border-blue-500/30",
-      "NLP": "bg-purple-500/20 text-purple-300 border-purple-500/30",
-      "Data Science": "bg-green-500/20 text-green-300 border-green-500/30",
-      "Robotics": "bg-red-500/20 text-red-300 border-red-500/30"
-    };
-    return colors[category] || "bg-gray-500/20 text-gray-300 border-gray-500/30";
-  };
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "min-h-screen pt-24 pb-12", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-16", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent", children: "My Projects" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl text-gray-400 max-w-3xl mx-auto", children: "A collection of AI-powered solutions, data science projects, and innovative applications that showcase my technical expertise and problem-solving abilities." })
+  useScrollReveal();
+  const filtered = activeFilter === "All" ? projects : projects.filter((p2) => p2.category === activeFilter);
+  const featured = filtered.filter((p2) => p2.featured);
+  const others = filtered.filter((p2) => !p2.featured);
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "min-h-screen pt-24 pb-20", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-14 reveal", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "inline-block text-xs font-semibold tracking-widest text-purple-400 uppercase mb-3", children: "Portfolio" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-5xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent", children: "Projects" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-lg max-w-2xl mx-auto", children: "Production-grade AI systems, research, and full-stack applications." })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap justify-center gap-4 mb-12", children: categories.map((category) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
-      Button,
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap justify-center gap-2 mb-14 reveal", children: categories.map((cat) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "button",
       {
-        variant: activeFilter === category ? "default" : "outline",
-        onClick: () => setActiveFilter(category),
-        className: `transition-all duration-300 ${activeFilter === category ? "bg-blue-600 hover:bg-blue-700" : "border-blue-500/30 text-blue-400 hover:bg-blue-600/20"}`,
-        children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(Filter, { size: 16, className: "mr-2" }),
-          category
-        ]
+        onClick: () => setActiveFilter(cat),
+        className: `px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200 border ${activeFilter === cat ? "bg-blue-600 text-white border-blue-500 shadow-lg shadow-blue-500/25" : "border-white/10 text-gray-400 hover:text-white hover:border-white/20 hover:bg-white/5"}`,
+        children: cat
       },
-      category
+      cat
     )) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-16", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold text-center mb-8 text-blue-400", children: "Featured Projects" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 lg:grid-cols-3 gap-8", children: featuredProjects.filter((project) => activeFilter === "All" || project.category === activeFilter).map((project, index2) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    featured.length > 0 && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mb-16", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { className: "text-2xl font-bold mb-8 reveal flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Star, { size: 20, className: "text-yellow-400" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white", children: "Featured" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6", children: featured.map((project, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
         "div",
         {
-          className: "bg-gray-800/50 rounded-lg border border-blue-500/20 hover:border-blue-500/40 transition-all duration-300 transform hover:scale-105 group",
+          className: "reveal-scale tilt-card group relative glass rounded-2xl border border-white/10 overflow-hidden",
+          style: { transitionDelay: `${i * 80}ms` },
           children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "h-48 bg-gradient-to-br from-gray-700 to-gray-600 rounded-t-lg flex items-center justify-center relative overflow-hidden", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-4xl font-bold text-blue-400 group-hover:scale-110 transition-transform duration-300", children: project.title.split(" ").map((word) => word[0]).join("").slice(0, 3) }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-blue-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" })
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: `h-36 bg-gradient-to-br ${project.gradient} relative overflow-hidden`, children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "img",
+                {
+                  src: project.image,
+                  alt: project.title,
+                  className: "absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-60",
+                  loading: "lazy"
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute bottom-3 left-5 text-3xl font-black text-white/30 select-none", children: project.initials }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute top-3 right-3", children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: `text-xs px-2 py-0.5 rounded-full border font-medium ${categoryColors[project.category] ?? "bg-gray-500/20 text-gray-300 border-gray-500/30"}`, children: project.category }) })
             ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between items-start mb-3", children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-bold text-white group-hover:text-blue-400 transition-colors duration-300", children: project.title }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: `px-2 py-1 rounded-full text-xs font-medium border ${getCategoryColor(project.category)}`, children: project.category })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-sm mb-4 line-clamp-3", children: project.description }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-2 mb-4", children: [
-                project.technologies.slice(0, 3).map((tech, techIndex) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "span",
-                  {
-                    className: "px-2 py-1 bg-gray-700 text-gray-300 text-xs rounded-md",
-                    children: tech
-                  },
-                  techIndex
-                )),
-                project.technologies.length > 3 && /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "px-2 py-1 bg-gray-700 text-gray-300 text-xs rounded-md", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-5", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-base font-bold text-white mb-2 group-hover:text-blue-300 transition-colors leading-snug", children: project.title }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-sm mb-4 leading-relaxed line-clamp-3", children: project.description }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-1.5 mb-5", children: [
+                project.technologies.slice(0, 4).map((t2, j2) => /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "tech-badge", children: t2 }, j2)),
+                project.technologies.length > 4 && /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "tech-badge text-gray-500", children: [
                   "+",
-                  project.technologies.length - 3,
-                  " more"
+                  project.technologies.length - 4
                 ] })
               ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex space-x-3", children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  Button,
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-2", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                  "a",
                   {
-                    size: "sm",
-                    variant: "outline",
-                    className: "flex-1 border-blue-500/30 text-blue-400 hover:bg-blue-600/20",
-                    asChild: true,
-                    children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                      "a",
-                      {
-                        href: project.github && project.github !== "#" ? project.github : void 0,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        tabIndex: project.github && project.github !== "#" ? 0 : -1,
-                        "aria-disabled": project.github === "#" ? "true" : void 0,
-                        className: project.github === "#" ? "pointer-events-none opacity-50" : "",
-                        children: [
-                          /* @__PURE__ */ jsxRuntimeExports.jsx(Github, { size: 16, className: "mr-2" }),
-                          "Code"
-                        ]
-                      }
-                    )
+                    href: project.github !== "#" ? project.github : void 0,
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                    className: `flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-medium border transition-all duration-200 ${project.github !== "#" ? "border-white/15 text-gray-300 hover:bg-white/5 hover:text-white hover:border-white/30" : "border-white/5 text-gray-600 cursor-not-allowed"}`,
+                    children: [
+                      /* @__PURE__ */ jsxRuntimeExports.jsx(Github, { size: 13 }),
+                      " Code"
+                    ]
                   }
                 ),
-                /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  Button,
+                /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                  "a",
                   {
-                    size: "sm",
-                    className: "flex-1 bg-blue-600 hover:bg-blue-700",
-                    asChild: true,
-                    children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                      "a",
-                      {
-                        href: project.demo && project.demo !== "#" ? project.demo : void 0,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        tabIndex: project.demo && project.demo !== "#" ? 0 : -1,
-                        "aria-disabled": project.demo === "#" ? "true" : void 0,
-                        className: project.demo === "#" ? "pointer-events-none opacity-50" : "",
-                        children: [
-                          /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 16, className: "mr-2" }),
-                          "Demo"
-                        ]
-                      }
-                    )
+                    href: project.demo !== "#" ? project.demo : void 0,
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                    className: `flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-medium transition-all duration-200 ${project.demo !== "#" ? `bg-gradient-to-r ${project.gradient} text-white hover:opacity-90` : "bg-white/5 text-gray-600 cursor-not-allowed"}`,
+                    children: [
+                      /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 13 }),
+                      " Demo"
+                    ]
                   }
                 )
               ] })
             ] })
           ]
         },
-        index2
+        i
       )) })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold text-center mb-8 text-purple-400", children: "Other Projects" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-8", children: otherProjects.filter((project) => activeFilter === "All" || project.category === activeFilter).map((project, index2) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    others.length > 0 && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-bold mb-8 reveal text-white", children: "More Projects" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-5", children: others.map((project, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
         "div",
         {
-          className: "bg-gray-800/50 rounded-lg p-6 border border-purple-500/20 hover:border-purple-500/40 transition-all duration-300 transform hover:scale-105",
+          className: "reveal glow-card glass rounded-2xl p-5 border border-white/10 group",
+          style: { transitionDelay: `${i * 60}ms` },
           children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between items-start mb-3", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-bold text-white hover:text-purple-400 transition-colors duration-300", children: project.title }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: `px-2 py-1 rounded-full text-xs font-medium border ${getCategoryColor(project.category)}`, children: project.category })
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start justify-between mb-3", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `w-8 h-8 rounded-lg bg-gradient-to-br ${project.gradient} flex items-center justify-center text-xs font-bold text-white flex-shrink-0`, children: project.initials.slice(0, 2) }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-base font-bold text-white group-hover:text-blue-300 transition-colors leading-tight", children: project.title })
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: `text-xs px-2 py-0.5 rounded-full border flex-shrink-0 ${categoryColors[project.category] ?? "bg-gray-500/20 text-gray-300 border-gray-500/30"}`, children: project.category })
             ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-sm mb-4", children: project.description }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-2 mb-4", children: project.technologies.map((tech, techIndex) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "span",
-              {
-                className: "px-2 py-1 bg-gray-700 text-gray-300 text-xs rounded-md",
-                children: tech
-              },
-              techIndex
-            )) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex space-x-3", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(
-                Button,
-                {
-                  size: "sm",
-                  variant: "outline",
-                  className: "flex-1 border-purple-500/30 text-purple-400 hover:bg-purple-600/20",
-                  asChild: true,
-                  children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                    "a",
-                    {
-                      href: project.github && project.github !== "#" ? project.github : void 0,
-                      target: "_blank",
-                      rel: "noopener noreferrer",
-                      tabIndex: project.github && project.github !== "#" ? 0 : -1,
-                      "aria-disabled": project.github === "#" ? "true" : void 0,
-                      className: project.github === "#" ? "pointer-events-none opacity-50" : "",
-                      children: [
-                        /* @__PURE__ */ jsxRuntimeExports.jsx(Github, { size: 16, className: "mr-2" }),
-                        "Code"
-                      ]
-                    }
-                  )
-                }
-              ),
-              /* @__PURE__ */ jsxRuntimeExports.jsx(
-                Button,
-                {
-                  size: "sm",
-                  className: "flex-1 bg-purple-600 hover:bg-purple-700",
-                  asChild: true,
-                  children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                    "a",
-                    {
-                      href: project.demo && project.demo !== "#" ? project.demo : void 0,
-                      target: "_blank",
-                      rel: "noopener noreferrer",
-                      tabIndex: project.demo && project.demo !== "#" ? 0 : -1,
-                      "aria-disabled": project.demo === "#" ? "true" : void 0,
-                      className: project.demo === "#" ? "pointer-events-none opacity-50" : "",
-                      children: [
-                        /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { size: 16, className: "mr-2" }),
-                        "Demo"
-                      ]
-                    }
-                  )
-                }
-              )
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-sm mb-3 leading-relaxed line-clamp-2", children: project.description }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-1.5 mb-4", children: project.technologies.slice(0, 5).map((t2, j2) => /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "tech-badge", children: t2 }, j2)) }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3", children: [
+              project.github !== "#" && /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: project.github, target: "_blank", rel: "noopener noreferrer", className: "flex items-center gap-1.5 text-xs text-gray-400 hover:text-white transition-colors", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(Github, { size: 13 }),
+                " View Code"
+              ] }),
+              project.demo !== "#" && /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: project.demo, target: "_blank", rel: "noopener noreferrer", className: "flex items-center gap-1.5 text-xs text-blue-400 hover:text-blue-300 transition-colors ml-auto", children: [
+                "Live Demo ",
+                /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowUpRight, { size: 12 })
+              ] })
             ] })
           ]
         },
-        index2
+        i
       )) })
     ] })
   ] }) });
 };
 const Services = () => {
+  useScrollReveal();
   const services = [
     {
       icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Brain, { className: "text-blue-400", size: 48 }),
       title: "AI-Based Solution Development",
-      description: "I build intelligent applications that solve real-world problems—from automation to prediction. Specializing in computer vision, NLP, and machine learning systems that deliver measurable business value.",
+      description: "I build intelligent applications that solve real-world problems, from automation to prediction. Specializing in computer vision, NLP, and machine learning systems that deliver measurable business value.",
       features: [
         "Custom ML model development",
         "Computer vision systems",
@@ -18729,18 +19275,12 @@ const emailjs = {
   EmailJSResponseStatus
 };
 const Contact = () => {
-  const [formData, setFormData] = reactExports.useState({
-    name: "",
-    email: "",
-    message: ""
-  });
+  const [formData, setFormData] = reactExports.useState({ name: "", email: "", message: "" });
   const [isSubmitting, setIsSubmitting] = reactExports.useState(false);
   const { toast: toast2 } = useToast();
+  useScrollReveal();
   const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -18748,107 +19288,87 @@ const Contact = () => {
     try {
       const result = await emailjs.send(
         "service_9xjccm4",
-        // ✅ Your Service ID
         "template_cytbjeu",
-        // ✅ Your Template ID
-        {
-          name: formData.name,
-          email: formData.email,
-          from_message: formData.message
-        },
+        { name: formData.name, email: formData.email, from_message: formData.message },
         "JPpzCKyX5fHr-cAYV"
-        // ✅ Your Public Key
       );
       console.log("Email sent:", result.text);
-      toast2({
-        title: "Message sent successfully! 🎉",
-        description: "Thank you for reaching out. I'll get back to you soon!"
-      });
+      toast2({ title: "Message sent! 🎉", description: "I'll get back to you within 24 hours." });
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
       console.error("Email sending failed:", error.text || error.message);
-      toast2({
-        title: "Oops! Something went wrong 😢",
-        description: "Please try again later or check your internet connection.",
-        variant: "destructive"
-      });
+      toast2({ title: "Oops! Something went wrong.", description: "Please try again or email me directly.", variant: "destructive" });
     } finally {
       setIsSubmitting(false);
     }
   };
-  const contactInfo = [
-    {
-      icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Mail, { className: "text-blue-400", size: 24 }),
-      title: "Email",
-      value: "work.kumardivyanshu@gmail.com",
-      link: "mailto:work.kumardivyanshu@gmail.com"
-    },
-    {
-      icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Linkedin, { className: "text-blue-600", size: 24 }),
-      title: "LinkedIn",
-      value: "Connect with me",
-      link: "https://www.linkedin.com/in/divyanshu-kumar-d4674k"
-    },
-    {
-      icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Github, { className: "text-gray-400", size: 24 }),
-      title: "GitHub",
-      value: "Check out my code",
-      link: "https://github.com/lufiDK4674"
-    }
+  const contactLinks = [
+    { icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Mail, { size: 18, className: "text-blue-400" }), label: "Email", value: "work.kumardivyanshu@gmail.com", href: "mailto:work.kumardivyanshu@gmail.com" },
+    { icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Linkedin, { size: 18, className: "text-blue-500" }), label: "LinkedIn", value: "divyanshu-kumar-d4674k", href: "https://www.linkedin.com/in/divyanshu-kumar-d4674k" },
+    { icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Github, { size: 18, className: "text-gray-300" }), label: "GitHub", value: "lufiDK4674", href: "https://github.com/lufiDK4674" },
+    { icon: /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { size: 18, className: "text-red-400" }), label: "Location", value: "Jharkhand / Gandhinagar, India", href: null }
   ];
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "min-h-screen pt-24 pb-12", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-16", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent", children: "Let's Connect" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl text-gray-400 max-w-3xl mx-auto", children: "Ready to discuss your next AI project or just want to chat about technology? I'd love to hear from you!" })
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "min-h-screen pt-24 pb-20", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-6xl mx-auto px-4 sm:px-6 lg:px-8", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-16 reveal", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "inline-block text-xs font-semibold tracking-widest text-green-400 uppercase mb-3", children: "Let's Talk" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-5xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent", children: "Contact" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-lg max-w-2xl mx-auto", children: "Open to full-time roles, freelance projects, and interesting collaborations. Let's build something great." })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-2 gap-12", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-8", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold text-white mb-6", children: "Get in Touch" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-lg leading-relaxed mb-8", children: "Whether you're looking to build an AI-powered solution, need help with data analysis, or want to collaborate on an exciting project, I'm always open to new opportunities and interesting conversations." })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-4", children: contactInfo.map((info, index2) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          "a",
-          {
-            href: info.link,
-            className: "flex items-center p-4 bg-gray-800/50 rounded-lg border border-blue-500/20 hover:border-blue-500/40 hover:bg-gray-700/50 transition-all duration-300 transform hover:scale-105 group",
-            children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mr-4 group-hover:scale-110 transition-transform duration-300", children: info.icon }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-5 gap-10 mb-16", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:col-span-2 space-y-6 reveal-left", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "glass rounded-2xl p-6 border border-white/10 space-y-3", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-sm font-semibold text-gray-300 uppercase tracking-widest mb-4", children: "Reach me at" }),
+          contactLinks.map(
+            (c, i) => c.href ? /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "a",
+              {
+                href: c.href,
+                target: c.href.startsWith("http") ? "_blank" : void 0,
+                rel: "noopener noreferrer",
+                className: "flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 transition-colors group",
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center flex-shrink-0 group-hover:bg-white/10 transition-colors", children: c.icon }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-gray-500", children: c.label }),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-300 group-hover:text-white transition-colors", children: c.value })
+                  ] })
+                ]
+              },
+              i
+            ) : /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3 p-3", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center flex-shrink-0", children: c.icon }),
               /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-white font-semibold", children: info.title }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-sm", children: info.value })
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-gray-500", children: c.label }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-300", children: c.value })
               ] })
-            ]
-          },
-          index2
-        )) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-lg p-6 border border-blue-500/20", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xl font-bold text-white mb-3", children: "Available for:" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "space-y-2 text-gray-300", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-2 h-2 bg-green-400 rounded-full mr-3" }),
-              "Freelance AI/ML projects"
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-2 h-2 bg-blue-400 rounded-full mr-3" }),
-              "Full-time opportunities"
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-2 h-2 bg-purple-400 rounded-full mr-3" }),
-              "Technical consultations"
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-2 h-2 bg-cyan-400 rounded-full mr-3" }),
-              "Collaboration & partnerships"
-            ] })
+            ] }, i)
+          )
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "glass rounded-2xl p-6 border border-green-500/20", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 mb-4", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "status-dot" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-sm font-semibold text-white", children: "Currently Available" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2 text-sm text-gray-400", children: ["Full-time AI/ML roles", "Freelance automation projects", "Technical consulting", "Research collaborations"].map((item, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center gap-2", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "w-1.5 h-1.5 rounded-full bg-green-400 flex-shrink-0" }),
+            item
+          ] }, i)) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 mt-4 pt-4 border-t border-white/10 text-xs text-gray-500", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Clock, { size: 12 }),
+            "Typically responds within 24 hours"
           ] })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "glass rounded-2xl p-6 border border-blue-500/20", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-sm font-semibold text-white mb-2", children: "Want a tailored resume?" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-gray-400 mb-4", children: "Pick the version that matches your role." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(ResumeDownload, { variant: "hero", upward: true })
         ] })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-gray-800/50 rounded-lg p-8 border border-blue-500/20", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-3xl font-bold text-white mb-6", children: "Send a Message" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("form", { onSubmit: handleSubmit, className: "space-y-6", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "lg:col-span-3 reveal-right", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "glass rounded-2xl p-8 border border-white/10", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-bold text-white mb-6", children: "Send a Message" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("form", { onSubmit: handleSubmit, className: "space-y-5", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("label", { htmlFor: "name", className: "block text-sm font-medium text-gray-300 mb-2", children: "Name *" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("label", { htmlFor: "name", className: "block text-xs font-semibold text-gray-400 uppercase tracking-widest mb-2", children: "Name *" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
               Input,
               {
@@ -18858,13 +19378,13 @@ const Contact = () => {
                 required: true,
                 value: formData.name,
                 onChange: handleChange,
-                className: "bg-gray-700/50 border-gray-600 text-white placeholder:text-gray-400 focus:border-blue-500 focus:ring-blue-500",
+                className: "bg-white/5 border-white/10 text-white placeholder:text-gray-600 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 rounded-xl h-11",
                 placeholder: "Your full name"
               }
             )
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("label", { htmlFor: "email", className: "block text-sm font-medium text-gray-300 mb-2", children: "Email *" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("label", { htmlFor: "email", className: "block text-xs font-semibold text-gray-400 uppercase tracking-widest mb-2", children: "Email *" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
               Input,
               {
@@ -18874,13 +19394,13 @@ const Contact = () => {
                 required: true,
                 value: formData.email,
                 onChange: handleChange,
-                className: "bg-gray-700/50 border-gray-600 text-white placeholder:text-gray-400 focus:border-blue-500 focus:ring-blue-500",
+                className: "bg-white/5 border-white/10 text-white placeholder:text-gray-600 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 rounded-xl h-11",
                 placeholder: "your.email@example.com"
               }
             )
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("label", { htmlFor: "message", className: "block text-sm font-medium text-gray-300 mb-2", children: "Message *" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("label", { htmlFor: "message", className: "block text-xs font-semibold text-gray-400 uppercase tracking-widest mb-2", children: "Message *" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
               Textarea,
               {
@@ -18890,8 +19410,8 @@ const Contact = () => {
                 value: formData.message,
                 onChange: handleChange,
                 rows: 6,
-                className: "bg-gray-700/50 border-gray-600 text-white placeholder:text-gray-400 focus:border-blue-500 focus:ring-blue-500 resize-none",
-                placeholder: "Tell me about your project, ideas, or just say hello..."
+                className: "bg-white/5 border-white/10 text-white placeholder:text-gray-600 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 resize-none rounded-xl",
+                placeholder: "Tell me about your project or opportunity..."
               }
             )
           ] }),
@@ -18900,9 +19420,9 @@ const Contact = () => {
             {
               type: "submit",
               disabled: isSubmitting,
-              className: "w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none",
+              className: "w-full h-11 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 shadow-lg shadow-blue-500/20 hover:shadow-blue-500/40 transition-all duration-300 hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed disabled:scale-100 rounded-xl font-semibold",
               children: isSubmitting ? /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "animate-spin rounded-full h-4 w-4 border-2 border-white/30 border-t-white mr-2" }),
                 "Sending..."
               ] }) : /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
                 /* @__PURE__ */ jsxRuntimeExports.jsx(Send, { size: 16, className: "mr-2" }),
@@ -18910,30 +19430,8 @@ const Contact = () => {
               ] })
             }
           )
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-6 pt-6 border-t border-gray-700", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400 text-sm text-center", children: "I typically respond within 24 hours. Looking forward to connecting with you!" }) })
-      ] })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-16 text-center", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-bold text-white mb-8", children: "Quick Stats" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-2 md:grid-cols-4 gap-6", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-gray-800/50 rounded-lg p-4 border border-blue-500/20", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-2xl font-bold text-blue-400", children: "24h" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-gray-400 text-sm", children: "Response Time" })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-gray-800/50 rounded-lg p-4 border border-purple-500/20", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-2xl font-bold text-purple-400", children: "5+" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-gray-400 text-sm", children: "Projects Delivered" })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-gray-800/50 rounded-lg p-4 border border-green-500/20", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-2xl font-bold text-green-400", children: "95%" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-gray-400 text-sm", children: "Client Satisfaction" })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-gray-800/50 rounded-lg p-4 border border-cyan-500/20", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-2xl font-bold text-cyan-400", children: "∞" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-gray-400 text-sm", children: "Learning Mindset" })
         ] })
-      ] })
+      ] }) })
     ] })
   ] }) });
 };
@@ -18951,83 +19449,232 @@ const NotFound = () => {
     /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "/", className: "text-blue-500 hover:text-blue-700 underline", children: "Return to Home" })
   ] }) });
 };
+const navItems = [
+  { name: "Home", path: "/" },
+  { name: "About", path: "/about" },
+  { name: "Experience", path: "/experience" },
+  { name: "Skills", path: "/skills" },
+  { name: "Projects", path: "/projects" },
+  { name: "Services", path: "/services" },
+  { name: "Contact", path: "/contact" }
+];
 const Navbar = () => {
   const [isOpen, setIsOpen] = reactExports.useState(false);
+  const [scrolled, setScrolled] = reactExports.useState(false);
   const location2 = useLocation();
-  const navItems = [
-    { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Experience", path: "/experience" },
-    { name: "Skills", path: "/skills" },
-    { name: "Projects", path: "/projects" },
-    { name: "Services", path: "/services" },
-    { name: "Contact", path: "/contact" }
-  ];
+  reactExports.useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 20);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+  reactExports.useEffect(() => setIsOpen(false), [location2]);
   const isActive = (path) => location2.pathname === path;
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("nav", { className: "fixed top-0 left-0 right-0 bg-black/80 backdrop-blur-md border-b border-blue-500/20 z-50", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between h-16", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", className: "text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent", children: "Divyanshu" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "hidden md:block", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "ml-10 flex items-baseline space-x-4", children: navItems.map((item) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-        Link,
-        {
-          to: item.path,
-          className: `px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 ${isActive(item.path) ? "bg-blue-600 text-white" : "text-gray-300 hover:bg-blue-600/20 hover:text-blue-400"}`,
-          children: item.name
-        },
-        item.name
-      )) }) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-        "button",
-        {
-          onClick: () => setIsOpen(!isOpen),
-          className: "text-gray-400 hover:text-white p-2",
-          children: isOpen ? /* @__PURE__ */ jsxRuntimeExports.jsx(X, { size: 24 }) : /* @__PURE__ */ jsxRuntimeExports.jsx(Menu, { size: 24 })
-        }
-      ) })
-    ] }),
-    isOpen && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-black/90 rounded-lg mt-2", children: navItems.map((item) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Link,
-      {
-        to: item.path,
-        onClick: () => setIsOpen(false),
-        className: `block px-3 py-2 rounded-md text-base font-medium transition-all duration-300 ${isActive(item.path) ? "bg-blue-600 text-white" : "text-gray-300 hover:bg-blue-600/20 hover:text-blue-400"}`,
-        children: item.name
-      },
-      item.name
-    )) }) })
-  ] }) });
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    "nav",
+    {
+      className: `fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? "glass border-b border-white/10 shadow-lg shadow-black/30" : "bg-transparent border-b border-transparent"}`,
+      children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between h-16", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/", className: "group relative flex items-center gap-2", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center shadow-lg shadow-blue-500/30 group-hover:shadow-blue-500/50 transition-shadow duration-300", children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white font-bold text-sm", children: "D" }) }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 rounded-lg bg-gradient-to-br from-blue-400 to-purple-500 opacity-0 group-hover:opacity-100 blur-md transition-opacity duration-300 -z-10" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent", children: "Divyanshu" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "hidden md:flex items-center gap-1", children: navItems.map((item) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            Link,
+            {
+              to: item.path,
+              className: `relative px-3.5 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${isActive(item.path) ? "text-white" : "text-gray-400 hover:text-white"}`,
+              children: [
+                isActive(item.path) && /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute inset-0 rounded-lg bg-gradient-to-r from-blue-600/80 to-purple-600/80 -z-10" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute inset-0 rounded-lg bg-white/5 opacity-0 hover:opacity-100 transition-opacity duration-200 -z-10" }),
+                item.name
+              ]
+            },
+            item.name
+          )) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "hidden md:block", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ResumeDownload, { variant: "nav" }) }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "button",
+              {
+                onClick: () => setIsOpen(!isOpen),
+                className: "md:hidden relative w-9 h-9 flex items-center justify-center rounded-lg text-gray-400 hover:text-white hover:bg-white/10 transition-all duration-200",
+                "aria-label": "Toggle menu",
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: `absolute transition-all duration-300 ${isOpen ? "opacity-100 rotate-0" : "opacity-0 rotate-90"}`, children: /* @__PURE__ */ jsxRuntimeExports.jsx(X, { size: 20 }) }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: `absolute transition-all duration-300 ${isOpen ? "opacity-0 -rotate-90" : "opacity-100 rotate-0"}`, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Menu, { size: 20 }) })
+                ]
+              }
+            )
+          ] })
+        ] }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "div",
+          {
+            className: `md:hidden overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}`,
+            children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "glass border-t border-white/10 px-4 pt-3 pb-4 space-y-1", children: [
+              navItems.map((item, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+                Link,
+                {
+                  to: item.path,
+                  className: `flex items-center px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 ${isActive(item.path) ? "bg-gradient-to-r from-blue-600/80 to-purple-600/80 text-white" : "text-gray-300 hover:bg-white/5 hover:text-white"}`,
+                  style: { transitionDelay: isOpen ? `${i * 40}ms` : "0ms" },
+                  children: item.name
+                },
+                item.name
+              )),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pt-2 px-2", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ResumeDownload, { variant: "nav" }) })
+            ] })
+          }
+        )
+      ]
+    }
+  );
 };
 const Footer = () => {
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "bg-black/50 border-t border-blue-500/20 py-8", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col md:flex-row justify-between items-center", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center md:text-left mb-4 md:mb-0", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-400", children: "© 2024 Divyanshu Kumar. Built with passion and AI." }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex space-x-6", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(
+  const links = [
+    { name: "About", path: "/about" },
+    { name: "Experience", path: "/experience" },
+    { name: "Projects", path: "/projects" },
+    { name: "Skills", path: "/skills" },
+    { name: "Contact", path: "/contact" }
+  ];
+  const socials = [
+    { icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Mail, { size: 14 }), href: "mailto:work.kumardivyanshu@gmail.com", label: "Email" },
+    { icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Linkedin, { size: 14 }), href: "https://www.linkedin.com/in/divyanshu-kumar-d4674k", label: "LinkedIn" },
+    { icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Github, { size: 14 }), href: "https://github.com/lufiDK4674", label: "GitHub" }
+  ];
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "border-t border-white/10 bg-black/40 backdrop-blur-md", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-12 flex items-center justify-between gap-6", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-5 min-w-0", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-1.5 flex-shrink-0", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-5 h-5 rounded-md bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white font-bold", style: { fontSize: 9 }, children: "D" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs font-semibold text-gray-400", children: "Divyanshu Kumar" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("nav", { className: "hidden sm:flex items-center gap-4", children: links.map((l2) => /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: l2.path, className: "text-xs text-gray-600 hover:text-gray-300 transition-colors duration-200", children: l2.name }, l2.name)) })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3 flex-shrink-0", children: [
+      socials.map((s) => /* @__PURE__ */ jsxRuntimeExports.jsx(
         "a",
         {
-          href: "mailto:work.kumardivyanshu@gmail.com",
-          className: "text-gray-400 hover:text-blue-400 transition-colors duration-300",
-          children: /* @__PURE__ */ jsxRuntimeExports.jsx(Mail, { size: 20 })
-        }
-      ),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(
-        "a",
-        {
-          href: "#",
-          className: "text-gray-400 hover:text-blue-400 transition-colors duration-300",
-          children: /* @__PURE__ */ jsxRuntimeExports.jsx(Linkedin, { size: 20 })
-        }
-      ),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(
-        "a",
-        {
-          href: "#",
-          className: "text-gray-400 hover:text-blue-400 transition-colors duration-300",
-          children: /* @__PURE__ */ jsxRuntimeExports.jsx(Github, { size: 20 })
-        }
-      )
+          href: s.href,
+          target: s.href.startsWith("http") ? "_blank" : void 0,
+          rel: "noopener noreferrer",
+          "aria-label": s.label,
+          className: "text-gray-600 hover:text-gray-300 transition-colors duration-200",
+          children: s.icon
+        },
+        s.label
+      )),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-xs text-gray-700 pl-2 border-l border-white/10", children: [
+        "© ",
+        (/* @__PURE__ */ new Date()).getFullYear(),
+        " DK"
+      ] })
     ] })
-  ] }) }) });
+  ] }) });
 };
+const ROUTES = ["/", "/about", "/experience", "/skills", "/projects", "/services", "/contact"];
+const COOLDOWN_MS = 1200;
+const BOTTOM_THRESHOLD = 6;
+const WHEEL_THRESHOLD = 40;
+function isAtBottom() {
+  return window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - BOTTOM_THRESHOLD;
+}
+function isAtTop() {
+  return window.scrollY <= BOTTOM_THRESHOLD;
+}
+function ScrollPageNav() {
+  const navigate = useNavigate();
+  const location2 = useLocation();
+  const coolingDown = reactExports.useRef(false);
+  const accumulated = reactExports.useRef(0);
+  const [hint, setHint] = reactExports.useState(null);
+  const hintTimeout = reactExports.useRef();
+  const currentIdx = ROUTES.indexOf(location2.pathname);
+  const showHint = (dir) => {
+    setHint(dir);
+    clearTimeout(hintTimeout.current);
+    hintTimeout.current = setTimeout(() => setHint(null), 900);
+  };
+  const tryNavigate = (dir) => {
+    if (coolingDown.current) return;
+    const target = dir === "next" ? currentIdx + 1 : currentIdx - 1;
+    if (target < 0 || target >= ROUTES.length) return;
+    coolingDown.current = true;
+    accumulated.current = 0;
+    navigate(ROUTES[target]);
+    window.scrollTo({ top: dir === "next" ? 0 : document.body.scrollHeight, behavior: "instant" });
+    setTimeout(() => {
+      coolingDown.current = false;
+    }, COOLDOWN_MS);
+  };
+  reactExports.useEffect(() => {
+    accumulated.current = 0;
+    const onWheel = (e) => {
+      if (coolingDown.current) return;
+      const dy = e.deltaY;
+      if (dy > 0 && isAtBottom()) {
+        accumulated.current += dy;
+        if (accumulated.current > WHEEL_THRESHOLD) {
+          if (currentIdx < ROUTES.length - 1) tryNavigate("next");
+          else accumulated.current = 0;
+        } else {
+          showHint("down");
+        }
+      } else if (dy < 0 && isAtTop()) {
+        accumulated.current += dy;
+        if (accumulated.current < -40) {
+          if (currentIdx > 0) tryNavigate("prev");
+          else accumulated.current = 0;
+        } else {
+          showHint("up");
+        }
+      } else {
+        accumulated.current = 0;
+      }
+    };
+    let touchStartY = 0;
+    const onTouchStart = (e) => {
+      touchStartY = e.touches[0].clientY;
+    };
+    const onTouchEnd = (e) => {
+      if (coolingDown.current) return;
+      const dy = touchStartY - e.changedTouches[0].clientY;
+      if (dy > 60 && isAtBottom() && currentIdx < ROUTES.length - 1) tryNavigate("next");
+      else if (dy < -60 && isAtTop() && currentIdx > 0) tryNavigate("prev");
+    };
+    window.addEventListener("wheel", onWheel, { passive: true });
+    window.addEventListener("touchstart", onTouchStart, { passive: true });
+    window.addEventListener("touchend", onTouchEnd, { passive: true });
+    return () => {
+      window.removeEventListener("wheel", onWheel);
+      window.removeEventListener("touchstart", onTouchStart);
+      window.removeEventListener("touchend", onTouchEnd);
+    };
+  }, [currentIdx]);
+  if (currentIdx === -1) return null;
+  const nextLabel = currentIdx < ROUTES.length - 1 ? ROUTES[currentIdx + 1].replace("/", "") || "Home" : null;
+  const prevLabel = currentIdx > 0 ? ROUTES[currentIdx - 1].replace("/", "") || "Home" : null;
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+    hint === "down" && nextLabel && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "fixed bottom-6 left-1/2 -translate-x-1/2 z-50 pointer-events-none flex flex-col items-center gap-1 animate-fade-in", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "glass border border-white/15 rounded-full px-4 py-2 flex items-center gap-2 text-xs text-gray-300 shadow-xl", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronDown, { size: 14, className: "text-blue-400 animate-bounce" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { children: [
+        "Keep scrolling for ",
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white font-semibold capitalize", children: nextLabel })
+      ] })
+    ] }) }),
+    hint === "up" && prevLabel && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "fixed top-20 left-1/2 -translate-x-1/2 z-50 pointer-events-none flex flex-col items-center gap-1 animate-fade-in", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "glass border border-white/15 rounded-full px-4 py-2 flex items-center gap-2 text-xs text-gray-300 shadow-xl", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronUp, { size: 14, className: "text-blue-400 animate-bounce" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { children: [
+        "Keep scrolling for ",
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white font-semibold capitalize", children: prevLabel })
+      ] })
+    ] }) })
+  ] });
+}
 const queryClient = new QueryClient();
 class ErrorBoundary extends reactExports.Component {
   constructor() {
@@ -19049,6 +19696,7 @@ const App = () => /* @__PURE__ */ jsxRuntimeExports.jsx(QueryClientProvider, { c
   /* @__PURE__ */ jsxRuntimeExports.jsx(Toaster, {}),
   /* @__PURE__ */ jsxRuntimeExports.jsx(HashRouter, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(ErrorBoundary, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(Navbar, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(ScrollPageNav, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsxs(Routes, { children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/", element: /* @__PURE__ */ jsxRuntimeExports.jsx(Index, {}) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/about", element: /* @__PURE__ */ jsxRuntimeExports.jsx(About, {}) }),
@@ -19063,4 +19711,4 @@ const App = () => /* @__PURE__ */ jsxRuntimeExports.jsx(QueryClientProvider, { c
   ] }) }) })
 ] }) });
 createRoot(document.getElementById("root")).render(/* @__PURE__ */ jsxRuntimeExports.jsx(App, {}));
-//# sourceMappingURL=index-BAlCala_.js.map
+//# sourceMappingURL=index-ChL9iMpA.js.map
