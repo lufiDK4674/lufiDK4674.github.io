@@ -16,6 +16,7 @@ import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ScrollPageNav from "./components/ScrollPageNav";
+import { ChatWidget } from "./components/chat/ChatWidget";
 
 const queryClient = new QueryClient();
 
@@ -53,6 +54,7 @@ const App = () => (
               <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
+            <ChatWidget />
           </div>
         </ErrorBoundary>
       </HashRouter>

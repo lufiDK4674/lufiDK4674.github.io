@@ -1,0 +1,32 @@
+name = "portfolio-chat-proxy"
+main = "src/index.ts"
+compatibility_date = "2024-09-01"
+
+# The OpenRouter API key is a secret — do NOT put it here.
+# Set it once after first deploy with:
+#   npx wrangler secret put OPENROUTER_API_KEY
+
+# ── Rate limiting ───────────────────────────────────────────────────
+# Cloudflare-native rate-limit bindings (accurate, no KV/D1 quota burn).
+# `unsafe.bindings` is the current wrangler syntax for the Rate Limiting API;
+# it is production-usable but the field name may stabilize later.
+#
+#   CHAT_RATE_LIMIT_MINUTE — per-IP burst cap (15 requests / 60s), keyed by IP.
+#   CHAT_RATE_LIMIT_DAY    — global daily cap (400 requests / 24h), keyed by a
+#                            fixed string so it acts as an account-wide counter
+#                            that protects the OpenRouter free-tier quota.
+#
+# If either binding is absent at runtime the code skips it gracefully (logs +
+# allows), so a deploy without these still works — just unprotected.
+
+[[unsafe.bindings]]
+name = "CHAT_RATE_LIMIT_MINUTE"
+type = "ratelimit"
+namespace_id = "1001"
+simple = { limit = 15, period = 60 }
+
+[[unsafe.bindings]]
+name = "CHAT_RATE_LIMIT_DAY"
+type = "ratelimit"
+namespace_id = "1002"
+simple = { limit = 400, period = 86400 }
