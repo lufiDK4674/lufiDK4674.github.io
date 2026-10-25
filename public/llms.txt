@@ -1,0 +1,20 @@
+# Divyanshu Kumar
+
+> AI engineer building applications across applied GenAI, agent automation, document intelligence and computer vision.
+
+## Portfolio
+
+- [Home](https://divyanshukumar.online/)
+- [Projects](https://divyanshukumar.online/#/projects)
+- [AutoFix AI / Vulnerability Remediation Agent](https://divyanshukumar.online/#/projects/autofix-ai)
+- [Smart Vision Quality Control repository](https://github.com/lufiDK4674/Smart-Vision_Quality-Testing-System)
+- [Content Intelligence Engine](https://divyanshukumar.online/#/projects/document-intelligence)
+- [Experience](https://divyanshukumar.online/#/experience)
+- [Capabilities](https://divyanshukumar.online/#/skills)
+- [About](https://divyanshukumar.online/#/about)
+- [Contact](https://divyanshukumar.online/#/contact)
+
+## Professional profiles
+
+- [GitHub](https://github.com/lufiDK4674)
+- [LinkedIn](https://www.linkedin.com/in/d4674k/)
