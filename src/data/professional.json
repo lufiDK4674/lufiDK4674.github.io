@@ -1,0 +1,673 @@
+{
+  "site": {
+    "name": "Divyanshu Kumar",
+    "headline": "AI engineer. Software builder.",
+    "heroSummary": "I build applications that connect AI models with data, tools and real workflows. My work spans agent automation, document intelligence and computer vision.",
+    "description": "Divyanshu Kumar is an AI engineer building applications across applied GenAI, agent automation, document intelligence and computer vision.",
+    "url": "https://divyanshukumar.online/",
+    "email": "work.kumardivyanshu@gmail.com",
+    "city": "Ramgarh, Jharkhand, India",
+    "github": "https://github.com/lufiDK4674",
+    "linkedin": "https://www.linkedin.com/in/d4674k/",
+    "socialImage": "/og-preview.png"
+  },
+  "resume": {
+    "label": "AI Engineer resume",
+    "publicPath": "/resumes/Divyanshu-Kumar-AI-Engineer.pdf",
+    "approved": true,
+    "lastUpdated": "14 October 2026"
+  },
+  "education": {
+    "degree": "B.Tech Computer Science and Engineering",
+    "institution": "Dumka Engineering College",
+    "startYear": 2021,
+    "endYear": 2025,
+    "cgpa": "8.55/10"
+  },
+  "experience": [
+    {
+      "id": "gennx",
+      "organization": "GenNx Tech Solutions",
+      "title": "Junior AI Engineer",
+      "type": "Full-time",
+      "start": "2026-07",
+      "end": null,
+      "summary": "Developing document-processing and retrieval workflows, defining module contracts and investigating source-to-retrieval failures.",
+      "snapshot": "Document processing, retrieval and cross-module debugging."
+    },
+    {
+      "id": "sec4sys",
+      "organization": "Sec4Sys Technologies Pvt Ltd",
+      "title": "AI Automation Engineer",
+      "type": "Freelance",
+      "start": "2025-11",
+      "end": "2026-06",
+      "summary": "Built a LangGraph vulnerability-remediation workflow connecting report parsing, semantic code retrieval, patch proposals, response validation and pull-request creation.",
+      "snapshot": "Agent automation from vulnerability reports to proposed code changes."
+    },
+    {
+      "id": "techgenius",
+      "organization": "Techgenius Institute",
+      "title": "AI & Robotics Engineer",
+      "type": "Full-time",
+      "start": "2025-08",
+      "end": "2026-05",
+      "summary": "Developed API-driven employee-tracking and context-aware notification workflows with FastAPI, LLM APIs, and MQTT-connected sensor systems.",
+      "snapshot": "API workflows and MQTT-connected sensor integration."
+    }
+  ],
+  "earlierExperience": [
+    {
+      "id": "techinterex",
+      "organization": "TechInterex",
+      "title": "Data Science Intern",
+      "type": "Internship",
+      "start": "2025-02",
+      "end": "2025-04",
+      "summary": "Completed a data-science internship."
+    },
+    {
+      "id": "gyantu",
+      "organization": "Gyantu",
+      "title": "AI Intern",
+      "type": "Internship",
+      "start": "2024-11",
+      "end": "2025-01",
+      "summary": "Worked on a document-aware Q&A prototype using a RAG workflow and a Streamlit interface."
+    },
+    {
+      "id": "lawazia",
+      "organization": "Lawazia Tech",
+      "title": "App Developer Trainee",
+      "type": "Traineeship",
+      "start": "2023-11",
+      "end": "2023-12",
+      "summary": "Built a blog application with authentication and responsive layouts."
+    }
+  ],
+  "overlapNote": "The Sec4Sys freelance engagement overlapped with full-time employment at Techgenius Institute. Concurrent months are counted once.",
+  "capabilityGroups": [
+    {
+      "title": "Agent workflows",
+      "description": "Connect model calls to tools, response contracts and recovery paths.",
+      "tools": [
+        "LangGraph orchestration",
+        "Semantic code retrieval and CVE/CWE context",
+        "Structured JSON contracts and recovery loops"
+      ],
+      "projectIds": ["autofix-ai"]
+    },
+    {
+      "title": "Document intelligence",
+      "description": "Turn extracted content into traceable search representations and bounded evidence context.",
+      "tools": [
+        "PDFium extraction and canonicalization",
+        "Source provenance and processing contracts",
+        "Structural and lexical/vector retrieval"
+      ],
+      "projectIds": ["document-intelligence"]
+    },
+    {
+      "title": "Backend engineering",
+      "description": "Build the API and runtime layer around AI workflows.",
+      "tools": [
+        "Python and FastAPI",
+        "LLM API integration",
+        "Docker packaging"
+      ],
+      "projectIds": ["autofix-ai"]
+    },
+    {
+      "title": "Computer vision",
+      "description": "Connect image processing to a physical monitoring problem.",
+      "tools": [
+        "OpenCV and YOLOv8",
+        "Freshness detection, logo recognition and OCR",
+        "NodeMCU hardware integration"
+      ],
+      "projectIds": ["smart-vision-qc"]
+    },
+    {
+      "title": "Data analysis",
+      "description": "Prepare and explore customer data, then present analytical outputs.",
+      "tools": [
+        "Pandas and ETL",
+        "Scikit-learn sentiment and churn modelling",
+        "Streamlit and Plotly dashboards"
+      ],
+      "projectIds": ["customer-insights"]
+    },
+    {
+      "title": "Connected systems",
+      "description": "Integrate sensor signals, application logic and hardware feedback.",
+      "tools": [
+        "MQTT-connected sensor workflows",
+        "OpenCV/Flask driver monitoring",
+        "NodeMCU and ESP-NOW robot coordination"
+      ],
+      "projectIds": ["driver-monitoring", "swarm-robotics"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "autofix-ai",
+      "route": "/projects/autofix-ai",
+      "title": "AutoFix AI",
+      "category": "Agentic AI",
+      "featured": true,
+      "summary": "Moving from a vulnerability report to a proposed code change with tool orchestration, code retrieval and response validation.",
+      "problem": "A remediation workflow needs to connect structured vulnerability details with relevant code before it can propose a change.",
+      "contribution": "I built the agent workflow, including report parsing, tool orchestration, structured JSON contracts, and error-recovery loops.",
+      "stack": ["Python", "LangGraph", "FastAPI", "Docker"],
+      "status": "Built during the Sec4Sys freelance engagement, which ended in June 2026. Implementation private; current maintenance status is not established.",
+      "flowLabel": "Vulnerability report to reviewable pull request",
+      "flowNote": "Implemented workflow overview. Response-contract validation does not establish patch correctness.",
+      "flow": [
+        {
+          "title": "Parse report",
+          "detail": "Extract the reported vulnerability and affected code context."
+        },
+        {
+          "title": "Retrieve code",
+          "detail": "Find relevant repository files with semantic retrieval."
+        },
+        {
+          "title": "Add CVE/CWE context",
+          "detail": "Attach vulnerability context to the remediation request."
+        },
+        {
+          "title": "Generate patch",
+          "detail": "Ask the model for a structured patch proposal."
+        },
+        {
+          "title": "Validate and recover",
+          "detail": "Check the response contract and route failures through recovery steps."
+        },
+        {
+          "title": "Create pull request",
+          "detail": "Open a reviewable change for further assessment."
+        }
+      ],
+      "engineeringNotes": [
+        {
+          "title": "Structured JSON contracts",
+          "detail": "Constrain model output to a shape the tools can parse and validate before acting on it."
+        },
+        {
+          "title": "Tool orchestration",
+          "detail": "Coordinate report parsing, retrieval, vulnerability context, patch generation, validation, and pull-request creation through the agent workflow."
+        },
+        {
+          "title": "Error recovery",
+          "detail": "Use recovery loops when a tool or generated response cannot continue through the expected path."
+        }
+      ],
+      "validation": "The workflow includes response-contract validation and recovery. No reproducible patch-correctness benchmark is published.",
+      "constraints": [
+        "A schema-valid JSON response does not establish that a generated patch is correct.",
+        "Creating a pull request does not establish that the patch is safe to merge.",
+        "The public case study does not claim a benchmark, successful merge rate, or security approval process."
+      ],
+      "evidence": {
+        "repository": null,
+        "demo": null,
+        "accessNote": "No public repository or demo is available. This page provides a high-level technical case study."
+      }
+    },
+    {
+      "id": "smart-vision-qc",
+      "route": null,
+      "title": "Smart Vision Quality Control",
+      "category": "Computer Vision",
+      "featured": true,
+      "summary": "Detecting freshness, logos and text on a conveyor, combining computer vision with hardware integration.",
+      "stack": ["Python", "OpenCV", "YOLOv8", "NodeMCU"],
+      "status": "Earlier project; public repository available.",
+      "achievement": "Third place at BIT Sindri Innovathon.",
+      "evidence": {
+        "repository": "https://github.com/lufiDK4674/Smart-Vision_Quality-Testing-System",
+        "demo": null,
+        "accessNote": "Public repository available; no hosted demo."
+      }
+    },
+    {
+      "id": "document-intelligence",
+      "route": "/projects/document-intelligence",
+      "title": "Content Intelligence Engine",
+      "category": "Document Intelligence",
+      "featured": true,
+      "summary": "Making document content usable for search and AI through source provenance, processing contracts and cross-module debugging.",
+      "problem": "Successful text extraction does not guarantee useful retrieval or grounded answers. Fragments and oversized context can break the evidence path.",
+      "contribution": "I am the sole developer responsible for architecture, implementation, verification and deployment. AI coding tools are part of my development workflow; engineering decisions and acceptance remain my responsibility.",
+      "stack": ["Python", "PostgreSQL", "MinIO", "PDFium"],
+      "status": "Ongoing employer project; implementation private.",
+      "flowLabel": "24-stage source-to-intelligence design",
+      "flowNote": "The phase groups describe the architecture; their verification states do not imply every stage is complete.",
+      "flow": [
+        {
+          "title": "Secure intake",
+          "detail": "Immutable, verified source identity and admission evidence"
+        },
+        {
+          "title": "Native extraction and targeted recovery",
+          "detail": "Native observations, materialized artifacts and governed recovery evidence"
+        },
+        {
+          "title": "Evidence reconciliation and canonicalization",
+          "detail": "Reconciled evidence, coverage accounting and immutable canonical revision"
+        },
+        {
+          "title": "Record semantics and optional business projections",
+          "detail": "Generic assertions and optional validated, versioned business projections"
+        },
+        {
+          "title": "Structural and lexical/vector retrieval",
+          "detail": "Search representations, lexical/vector generations and bounded evidence context"
+        },
+        {
+          "title": "Grounded intelligence",
+          "detail": "Cited answers or explicit uncertainty"
+        }
+      ],
+      "engineeringNotes": [
+        {
+          "title": "Source evidence stays authoritative",
+          "detail": "Preserve immutable source identity and revisions. Search representations and bounded views reference the original evidence instead of replacing it."
+        },
+        {
+          "title": "Context budgets are a contract",
+          "detail": "Retain the original table while offering source-backed views that fit the context reader. A relevant search hit must also be expandable into usable evidence."
+        },
+        {
+          "title": "Uncertainty is explicit",
+          "detail": "Separate unsupported or uncertain interpretations from accepted, source-grounded results."
+        }
+      ],
+      "validation": "Seven of seven scoped structural integration checks passed against disposable PostgreSQL and MinIO. The full real-provider gate failed on outage-versus-GPU-resource error classification; a positive structural slice is not full provider or source-to-answer acceptance.",
+      "constraints": [
+        "The receipt investigation diagnosed fragmentation; the original receipt has not yet been shown to pass through the current structural implementation.",
+        "A 37-member invoice table covered 22 source spans, exceeding the context reader’s 16-span budget. Bounded two-span label/value views preserved references to the original table.",
+        "Shared Knowledge Pool and provenance relationships do not establish a delivered Knowledge Graph retrieval system."
+      ],
+      "evidence": {
+        "repository": null,
+        "demo": null,
+        "accessNote": "The case study uses reconstructed diagnostic illustrations based on documented engineering findings."
+      }
+    },
+    {
+      "id": "customer-insights",
+      "route": null,
+      "title": "Unified Customer Insights",
+      "category": "Data Science",
+      "featured": false,
+      "summary": "A customer analytics project combining sentiment analysis, churn prediction, ETL, and dashboards.",
+      "stack": ["Python", "Scikit-learn", "Pandas", "Streamlit", "Plotly"],
+      "status": "Earlier project; public repository available.",
+      "achievement": "Finalist at HackFest '24, IIT ISM Dhanbad.",
+      "evidence": {
+        "repository": "https://github.com/lufiDK4674/Unified_Customer_Insights",
+        "demo": null,
+        "accessNote": "Public repository available; no hosted demo."
+      }
+    },
+    {
+      "id": "fake-news-detection",
+      "route": null,
+      "title": "Fake News Detection",
+      "category": "Data Science",
+      "featured": false,
+      "summary": "A text-classification project using TF-IDF features and a Passive Aggressive Classifier.",
+      "stack": ["Python", "Scikit-learn", "TF-IDF"],
+      "status": "Earlier project; public repository available.",
+      "evidence": {
+        "repository": "https://github.com/lufiDK4674/DataScience_Techinterex/tree/main/TASK%204",
+        "demo": null,
+        "accessNote": "Public repository available; no hosted demo."
+      }
+    },
+    {
+      "id": "retail-sales-analysis",
+      "route": null,
+      "title": "Retail Sales Analysis",
+      "category": "Data Science",
+      "featured": false,
+      "summary": "A retail-sales analysis and visualization project.",
+      "stack": ["Python", "Pandas", "Plotly", "SQL"],
+      "status": "Earlier project; public repository available.",
+      "evidence": {
+        "repository": "https://github.com/lufiDK4674/DataScience_Techinterex/tree/main/TASK%207",
+        "demo": null,
+        "accessNote": "Public repository available; no hosted demo."
+      }
+    },
+    {
+      "id": "driver-monitoring",
+      "route": null,
+      "title": "Driver Monitoring System",
+      "category": "Computer Vision",
+      "featured": false,
+      "summary": "A computer-vision project for driver-state monitoring with hardware feedback.",
+      "stack": ["Python", "OpenCV", "Flask", "MQTT"],
+      "status": "Earlier project; no public repository or demo is listed.",
+      "evidence": {
+        "repository": null,
+        "demo": null,
+        "accessNote": "No public repository or demo is listed."
+      }
+    },
+    {
+      "id": "talking-robot",
+      "route": null,
+      "title": "Interactive Talking Robot",
+      "category": "Robotics",
+      "featured": false,
+      "summary": "A Raspberry Pi project combining conversational responses with speech output.",
+      "stack": ["Python", "Raspberry Pi", "Linux"],
+      "status": "Earlier project; no public repository or demo is listed.",
+      "evidence": {
+        "repository": null,
+        "demo": null,
+        "accessNote": "No public repository or demo is listed."
+      }
+    },
+    {
+      "id": "swarm-robotics",
+      "route": null,
+      "title": "Swarm Robotics",
+      "category": "Robotics",
+      "featured": false,
+      "summary": "A multi-robot coordination project using NodeMCU and ESP-NOW communication.",
+      "stack": ["C++", "NodeMCU", "ESP-NOW"],
+      "status": "Earlier project; no public repository or demo is listed.",
+      "evidence": {
+        "repository": null,
+        "demo": null,
+        "accessNote": "No public repository or demo is listed."
+      }
+    },
+    {
+      "id": "conversational-rag-chatbot",
+      "route": null,
+      "title": "Conversational RAG Chatbot",
+      "category": "Agentic AI",
+      "featured": false,
+      "summary": "A document-aware question-answering prototype with a Streamlit interface.",
+      "stack": ["Python", "LangChain", "ChromaDB", "Streamlit"],
+      "status": "Earlier project; no public repository or demo is listed.",
+      "evidence": {
+        "repository": null,
+        "demo": null,
+        "accessNote": "No public repository or demo is listed."
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Third place",
+      "event": "BIT Sindri Innovathon",
+      "detail": "Built a food-freshness, logo, and text-detection conveyor-monitoring project."
+    },
+    {
+      "title": "Finalist",
+      "event": "HackFest '24, IIT ISM Dhanbad",
+      "detail": "Presented a customer churn and sentiment analysis project."
+    }
+  ],
+  "researchProject": {
+    "title": "Gene Ontology Classification with Positive-Unlabelled Learning",
+    "publicationStatus": "Manuscript rejected; not published",
+    "visible": false
+  },
+  "services": {
+    "title": "Technical collaboration",
+    "description": "Recruitment is the primary focus. For technical discussions, contact me about document workflows, applied GenAI, or agentic automation reflected in the work on this site.",
+    "topics": [
+      "Document-ingestion workflow design and integration",
+      "Agentic vulnerability-remediation workflows",
+      "Python and FastAPI integration"
+    ]
+  },
+  "seo": {
+    "/": {
+      "title": "Divyanshu Kumar | AI Engineer, Applied GenAI",
+      "description": "Divyanshu Kumar is an AI engineer building applications across applied GenAI, agent automation, document intelligence and computer vision."
+    },
+    "/about": {
+      "title": "About Divyanshu Kumar | AI Engineer",
+      "description": "Background, education, and engineering focus for Divyanshu Kumar, an AI Engineer based in Ramgarh, Jharkhand, India."
+    },
+    "/experience": {
+      "title": "Experience | Divyanshu Kumar, AI Engineer",
+      "description": "Professional experience at GenNx Tech Solutions, Sec4Sys Technologies, and Techgenius Institute, with earlier roles listed separately."
+    },
+    "/skills": {
+      "title": "Engineering Capabilities | Divyanshu Kumar",
+      "description": "Evidence-linked capabilities in applied GenAI, agent workflows, document retrieval, Python APIs, computer vision, data analysis and connected systems."
+    },
+    "/projects": {
+      "title": "Projects | Divyanshu Kumar, AI Engineer",
+      "description": "Agent automation, conveyor computer vision and document intelligence: selected projects and engineering evidence by Divyanshu Kumar."
+    },
+    "/projects/autofix-ai": {
+      "title": "AutoFix AI | Divyanshu Kumar",
+      "description": "A technical case study of a LangGraph workflow for vulnerability report parsing, semantic code retrieval, patch generation, validation, and pull requests."
+    },
+    "/projects/document-intelligence": {
+      "title": "Content Intelligence Engine | Divyanshu Kumar",
+      "description": "Sole-developer case study: a 24-stage document-intelligence architecture, PDFium fragmentation investigation and scoped PostgreSQL–MinIO retrieval integration."
+    },
+    "/services": {
+      "title": "Technical Collaboration | Divyanshu Kumar",
+      "description": "Technical areas reflected in Divyanshu Kumar's document-intelligence and agentic automation work."
+    },
+    "/contact": {
+      "title": "Contact Divyanshu Kumar | AI Engineer",
+      "description": "Contact Divyanshu Kumar in Ramgarh, Jharkhand, India, by email or the accessible contact form."
+    }
+  },
+  "seoNotFound": {
+    "title": "Page not found | Divyanshu Kumar",
+    "description": "The requested page could not be found. Browse Divyanshu Kumar's engineering projects and experience."
+  },
+  "documentIntelligence": {
+    "proposition": "Turning enterprise documents into traceable intelligence.",
+    "sourceNote": "Engineering records dated 24 October 2026. Reported project evidence; these checks were not rerun as part of this portfolio build.",
+    "fragmentation": {
+      "rectangles": 486,
+      "singleCharacter": 434,
+      "canonicalElements": 514,
+      "canonicalParagraphs": 497,
+      "legacyChunks": 496,
+      "finding": "Traced a receipt from PDFium extraction through canonical content into a legacy search index, diagnosing how geometric fragments became independent searchable prose.",
+      "outcome": "Diagnosed, not claimed fixed: the original receipt still needs verification through the current structural implementation."
+    },
+    "contextBudget": {
+      "tableMembers": 37,
+      "sourceSpans": 22,
+      "readerBudget": 16,
+      "associationSpans": 2,
+      "finding": "A separate invoice fixture had a 37-member table covering 22 source spans, exceeding its 16-span reader budget. I preserved the original table and introduced bounded, source-backed label/value views."
+    },
+    "verification": {
+      "passed": 7,
+      "total": 7,
+      "scope": "Structural retrieval integration for the invoice fixture against disposable PostgreSQL and MinIO.",
+      "result": "Source-backed search representations and bounded context expansion passed the scoped integration slice.",
+      "providerResult": "The full real-provider gate failed on outage-versus-GPU-resource error classification. Accepted live cited answers and full source-to-answer acceptance remain outstanding."
+    },
+    "modules": 12,
+    "phases": [
+      {
+        "id": "intake",
+        "title": "Secure intake",
+        "input": "Source bytes and intake request",
+        "output": "Immutable, verified source identity and admission evidence",
+        "verification": "Designed; source-management implementation and scoped integration evidence documented.",
+        "steps": [
+          {
+            "number": 1,
+            "title": "Receive, identify, immutably store, verify and securely admit source"
+          }
+        ]
+      },
+      {
+        "id": "extraction",
+        "title": "Native extraction and targeted recovery",
+        "input": "Admitted source and parser capabilities",
+        "output": "Native observations, materialized artifacts and governed recovery evidence",
+        "verification": "Native parsing implemented; receipt fragmentation reproduced. Recovery scope has separate component verification.",
+        "steps": [
+          {
+            "number": 2,
+            "title": "Detect physical format and select native parser capabilities"
+          },
+          {
+            "number": 3,
+            "title": "Extract native structure and content"
+          },
+          {
+            "number": 4,
+            "title": "Materialize visual and media artifacts"
+          },
+          {
+            "number": 5,
+            "title": "Collect visual and contextual recovery signals"
+          },
+          {
+            "number": 6,
+            "title": "Identify missing recoverable content"
+          },
+          {
+            "number": 7,
+            "title": "Make one governed recovery plan"
+          },
+          {
+            "number": 8,
+            "title": "Execute OCR, code decoding and optional VLM recovery"
+          }
+        ]
+      },
+      {
+        "id": "canonical",
+        "title": "Evidence reconciliation and canonicalization",
+        "input": "Native and recovered observations with source locators",
+        "output": "Reconciled evidence, coverage accounting and immutable canonical revision",
+        "verification": "Reconciliation and canonicalization components implemented. Current structural publication of the original receipt remains to be verified.",
+        "steps": [
+          {
+            "number": 9,
+            "title": "Normalize and validate provenance"
+          },
+          {
+            "number": 10,
+            "title": "Reconcile native and recovered evidence"
+          },
+          {
+            "number": 11,
+            "title": "Account for coverage and closure inputs"
+          },
+          {
+            "number": 12,
+            "title": "Build, close and validate canonical revision"
+          },
+          {
+            "number": 13,
+            "title": "Persist canonical artifacts and activate authority"
+          },
+          {
+            "number": 14,
+            "title": "Commit module state and advance processing checkpoint"
+          }
+        ]
+      },
+      {
+        "id": "records",
+        "title": "Record semantics and optional business projections",
+        "input": "Canonical revisions and source-grounded record evidence",
+        "output": "Generic assertions and optional validated, versioned business projections",
+        "verification": "Selected record and typed-handoff integration slices verified; complete publication acceptance continues.",
+        "steps": [
+          {
+            "number": 15,
+            "title": "Segment canonical content into logical records"
+          },
+          {
+            "number": 16,
+            "title": "Extract generic grounded semantic assertions"
+          },
+          {
+            "number": 17,
+            "title": "Validate assertions and grounding"
+          },
+          {
+            "number": 18,
+            "title": "Evaluate optional profile applicability"
+          },
+          {
+            "number": 19,
+            "title": "Project generic roles to typed candidates"
+          },
+          {
+            "number": 20,
+            "title": "Validate typed candidates"
+          },
+          {
+            "number": 21,
+            "title": "Publish accepted record versions"
+          }
+        ]
+      },
+      {
+        "id": "retrieval",
+        "title": "Structural and lexical/vector retrieval",
+        "input": "Eligible canonical content and source-bound structure",
+        "output": "Search representations, lexical/vector generations and bounded evidence context",
+        "verification": "7/7 scoped PostgreSQL–MinIO structural integration checks passed. The full real-provider gate did not pass.",
+        "steps": [
+          {
+            "number": 22,
+            "title": "Build structure-aware retrieval chunks"
+          },
+          {
+            "number": 23,
+            "title": "Build and activate lexical search; add embeddings conditionally"
+          }
+        ]
+      },
+      {
+        "id": "intelligence",
+        "title": "Grounded intelligence",
+        "input": "Authorized, bounded source context and a query",
+        "output": "Cited answers or explicit uncertainty",
+        "verification": "API/provider components have test evidence; an accepted live cited answer is not yet established.",
+        "steps": [
+          {
+            "number": 24,
+            "title": "Answer grounded intelligence queries"
+          }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "introduction": "From robotics and computer vision to applied GenAI, my work connects models to the software and systems around them.",
+    "paragraphs": [
+      "My projects span conveyor monitoring with computer vision, customer analytics, and connected robotics. That work involved processing data, integrating hardware and making the result usable in an application.",
+      "At Techgenius, I developed API-driven workflows with FastAPI, LLM APIs and MQTT-connected sensors. My overlapping freelance work at Sec4Sys extended that practice into a LangGraph vulnerability-remediation workflow.",
+      "Today, my focus is applied GenAI: connecting models to tools and source evidence, defining processing contracts, and investigating failures across extraction, retrieval and application boundaries."
+    ]
+  },
+  "engineeringApproach": [
+    {
+      "title": "Follow the failure across boundaries.",
+      "description": "An unexpected answer may begin in extraction or retrieval. In CIE, I traced single-character fragments from PDFium observations through canonical content to the legacy search index.",
+      "projectId": "document-intelligence"
+    },
+    {
+      "title": "Build the workflow around the model.",
+      "description": "A patch proposal needs more than a model call. AutoFix connects report parsing and code retrieval with response validation, tool execution and recovery loops.",
+      "projectId": "autofix-ai"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+/* Recruitment overview: balanced work, with technical depth on case routes. */
+.hero-current-role {
+  margin-top: 24px;
+  font-size: 14px;
+  color: var(--ink-muted);
+}
+.featured-grid .is-featured {
+  display: flex;
+  flex-direction: column;
+}
+.featured-grid .project-card-copy {
+  flex: 1;
+}
+.featured-grid .project-sketch {
+  height: 185px;
+  flex: none;
+  padding: 22px 14px 16px;
+}
+.featured-grid .project-card h3 {
+  font-size: clamp(24px, 2.2vw, 30px);
+}
+.featured-grid .is-featured:nth-child(2) {
+  margin-top: 0;
+}
+.conveyor-sketch {
+  width: 100%;
+  height: 110px;
+  color: var(--accent-color);
+}
+.engineering-approach {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  gap: 70px;
+}
+.approach-observations {
+  display: grid;
+  gap: 42px;
+}
+.approach-observation h3 {
+  font-size: 28px;
+  max-width: 25ch;
+}
+.approach-observation p {
+  margin-block: 16px 18px;
+  max-width: 60ch;
+}
+.capability-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  align-items: baseline;
+}
+.capability-evidence {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin-top: 24px;
+}
+.capability-evidence .text-link {
+  font-size: 14px;
+  min-height: 44px;
+}
+#more-projects-title {
+  scroll-margin-top: 110px;
+}
+@media (max-width: 1100px) and (min-width: 601px) {
+  .featured-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .featured-grid .is-featured {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 0 28px;
+  }
+  .featured-grid .project-sketch {
+    grid-row: span 2;
+    height: 100%;
+    min-height: 220px;
+  }
+  .featured-grid .project-card h3 {
+    margin-top: 0;
+  }
+  .featured-grid .project-card-actions {
+    grid-column: 2;
+  }
+}
+@media (max-width: 900px) {
+  .engineering-approach {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .featured-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .featured-grid .project-card h3 {
+    font-size: 28px;
+  }
+  .hero-current-role {
+    font-size: 13px;
+    max-width: 40ch;
+    margin-top: 20px;
+  }
+  .hero-specialization {
+    max-width: 26ch;
+  }
+  .approach-observation h3 {
+    font-size: 26px;
+  }
+  .approach-observation p {
+    font-size: 15px;
+  }
+  .approach-observations {
+    gap: 32px;
+  }
+  .capability-summary {
+    display: block;
+    font-size: 15px;
+  }
+  .capability-summary .text-link {
+    margin-top: 12px;
+  }
+}
