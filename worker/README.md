@@ -1,125 +1,69 @@
-# Portfolio Chat Proxy (Cloudflare Worker)
+# Portfolio API Worker
 
-A tiny Cloudflare Worker that proxies chat requests from the portfolio site to
-OpenRouter. The **OpenRouter API key lives only here, server-side** — it never
-ships in the frontend bundle — and the worker adds rate limiting, guardrails,
-and structured logging on top.
+This Cloudflare Worker provides the contact form endpoint and retains an
+optional chat proxy route for compatibility. The portfolio no longer renders
+a chat widget. The contact form does not send anything during local tests; the
+success and failure paths use a stubbed EmailJS response.
 
-## Deploy (one-time setup)
+## Configure and deploy
 
-From the `worker/` directory:
+From this directory:
 
 ```bash
-cd worker
-npm install                 # installs wrangler
-npx wrangler login          # opens browser to auth your Cloudflare account
+npm install
+npx wrangler login
+npx wrangler deploy
+```
+
+The EmailJS service ID, template ID, and public key are Worker variables in
+`wrangler.toml`. The OpenRouter API key is required only if another client uses
+the retained `/chat` route. Set that secret only when needed:
+
+```bash
 npx wrangler secret put OPENROUTER_API_KEY
-                            # paste your OpenRouter key (sk-or-...) when prompted
-npx wrangler deploy         # prints the worker URL, e.g.
-                            # https://portfolio-chat-proxy.<account>.workers.dev
 ```
 
-Copy that worker URL — the portfolio site needs it.
+The contact endpoint does not require that key. The Worker URL is printed by
+`wrangler deploy`.
 
-## Wire the URL into the site
+Configure that URL in the repository's GitHub Actions secret `CHAT_API_URL`.
+The secret name is historical; the Pages workflow uses its value for
+`VITE_CONTACT_API_URL`. For local site development, set this in the ignored
+`.env.local` file:
 
-The OpenRouter key is **not** a frontend env var anymore. Only the proxy URL is:
+```text
+VITE_CONTACT_API_URL=https://<worker-host>
+```
 
-- **Local dev:** add to the repo's `.env.local`:
-  ```
-  VITE_CHAT_API_URL=https://portfolio-chat-proxy.<account>.workers.dev
-  ```
-- **Production (GitHub Pages):** repo Settings → Secrets and variables →
-  Actions → New secret named `CHAT_API_URL` with the worker URL as its value.
-  The Actions workflow injects it into the build as `VITE_CHAT_API_URL`.
+## Contact endpoint
 
-## Local worker development
+`POST /contact` accepts JSON with `name`, `email`, `message`, and an optional
+`website` honeypot field. It validates shape, email syntax, and field lengths
+before forwarding to EmailJS. The browser bundle contains no mail provider
+credentials. The handler does not log message content, names, or email
+addresses; it logs a truncated SHA-256 hash of the request IP for abuse review.
+
+The endpoint limits an IP to three submissions per minute and silently
+acknowledges a filled honeypot without forwarding it. IP limits can affect
+people who share a public network. This is basic abuse friction, not a delivery
+guarantee or a substitute for provider-side controls. The client keeps form
+content on failures and offers direct email as a fallback.
+
+## Chat proxy
+
+The chat route accepts only whitelisted free models, constrains request shape,
+and prepends a server-side persona guardrail. `GET /health` reports whether the
+OpenRouter key is configured. The Worker applies a 15/minute per-IP limit and
+a 120/minute aggregate limit per Cloudflare location. Those limits are local
+to each Cloudflare location and eventually consistent; they are not a global
+daily quota or accounting control.
+
+## Checks
 
 ```bash
-cd worker
-npm run dev                 # serves the worker at http://localhost:8787
+npm test
+npx wrangler deploy --dry-run
 ```
 
-Point `VITE_CHAT_API_URL` at `http://localhost:8787` to test against the local
-worker. The local allowlist already permits `localhost` origins.
-
-## Rate limiting
-
-Two Cloudflare-native rate-limit bindings (configured in `wrangler.toml`):
-
-- **`CHAT_RATE_LIMIT_MINUTE`** — 15 requests / 60s per IP (burst cap). Stops a
-  single client scripting the endpoint to burn the OpenRouter free quota.
-- **`CHAT_RATE_LIMIT_DAY`** — 400 requests / 24h **global** (keyed by a fixed
-  string, so it acts as an account-wide counter). Protects the OpenRouter
-  free-tier daily quota from distributed abuse.
-
-Tune the limits in `wrangler.toml` and redeploy. If a binding is absent at
-runtime the code skips it gracefully (logs + allows) — so a deploy without
-these still works, just unprotected. KV/D1 is **not** required: the native
-bindings are accurate and don't consume your daily write quota.
-
-The bindings use the `unsafe.bindings` wrangler field, which is the current
-syntax for the Rate Limiting API. It's production-usable; the field name may
-stabilize later. If your wrangler version rejects `unsafe.bindings`, fall back
-to a dashboard WAF Rate Limiting Rule on the route, or a KV counter.
-
-## Guardrails
-
-Four layers, all server-side:
-
-1. **Immutable guardrail system prompt** — prepended to *every* request before
-   the client's messages. Locks the persona and forbids revealing
-   instructions/keys or acting outside the portfolio-assistant role. A caller
-   who bypasses the client JS and crafts messages directly still gets it.
-2. **Input validation & sanitization** — rejects oversized bodies (200KB),
-   non-JSON, wrong shapes, too many messages (30), oversized individual
-   messages, and oversized user/assistant content (32KB — targets
-   prompt-stuffing without choking the legit knowledge-bearing system message,
-   which is ~25KB). Forces `stream: true` and clamps `max_tokens` to 1024.
-3. **Model allowlist** — only the three free models are forwarded upstream, so
-   the key can never be pointed at paid models regardless of what a client
-   sends. Only whitelisted body fields are forwarded (no extra params).
-4. **CORS** — locked to the portfolio's own domains (`divyanshukumar.online`,
-   `divyanshukumar.me`, `localhost`).
-
-**Residual risk (documented, not solved):** prompt injection from a visitor's
-typed message is the classic unsolvable arms race — the guardrail + persona
-defend but can't guarantee it. For a portfolio this is acceptable. The strong
-guarantee the worker *does* provide: no one can strip the guardrail or unlock
-paid models by calling the endpoint directly.
-
-## Observability
-
-- **Structured logs** — one JSON line per request via `console.log`, viewable
-  live with `wrangler tail` and in the Cloudflare dashboard (Workers → Logs):
-  ```json
-  { "level":"info","requestId":"…","ts":"…","ipHash":"…(SHA-256, 16 hex)",
-    "method":"POST","path":"/","status":200,"latencyMs":412,
-    "model":"meta-llama/…","upstreamStatus":200 }
-  ```
-  Errors / rate-limits / validation failures are logged at `warn`/`error`
-  levels with the reason in `validationError` / `error` / `rateLimited`.
-  IP is **hashed**, never stored raw.
-- **`X-Request-Id` response header** (CORS-exposed) — the chat UI appends
-  `(ref <id>)` to its error message, so a visitor can quote a ref that maps
-  1:1 to a log line in `wrangler tail`.
-- **`/health` endpoint** — `GET /health` returns `{ "ok": true, "configured": true }`
-  (503 if the key is missing). Point an uptime monitor (UptimeRobot, etc.)
-  at `https://…workers.dev/health`.
-- **Dashboard analytics** — Cloudflare already graphs invocations, errors, and
-  CPU time per worker for free.
-
-To tail live logs:
-
-```bash
-cd worker
-npx wrangler tail               # streams the JSON log lines as requests happen
-npx wrangler tail --format json
-```
-
-## Notes
-
-- The worker streams the OpenRouter SSE response straight through to the
-  browser, so the chat UI's token-by-token rendering still works.
-- Token-usage logging isn't included (would require tapping the SSE stream
-  mid-passthrough); rely on OpenRouter's dashboard for token/cost metrics.
+The tests stub network requests. They do not deliver messages or exercise a
+deployed Cloudflare account.

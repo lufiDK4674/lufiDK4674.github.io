@@ -54,3 +54,7 @@ The approved resume is a separately approved artifact and must not be regenerate
 ## Portfolio breadth refinement
 
 AutoFix AI, Smart Vision Quality Control and Content Intelligence Engine share comparable prominence. Computer vision is supported by the public Smart Vision repository and confirmed third-place recognition. Capabilities group tools with a small number of evidence links across GenAI, vision, data and connected systems. About follows the engineering trajectory, Experience describes responsibilities, and case studies own implementation detail and verification limits. Sole-developer ownership is stated once in CIE’s My role section. No new art direction or dependencies were introduced.
+
+## Source maintenance
+
+Layout, profile and project components live in their corresponding subdirectories; only used primitives remain in ui. Styles are split by responsibility and imported in their original cascade order through src/styles/index.css. Strict type checking and npm run check protect the verified content and existing route behavior.

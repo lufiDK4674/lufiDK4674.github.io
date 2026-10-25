@@ -8,9 +8,23 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-# dist
+dist/
 dist-ssr
 *.local
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+.wrangler/
+*.tsbuildinfo
+
+# Local concept exploration and review artifacts (not application sources)
+.taste-skill/
+design-concepts/
+review-evidence/
+worker/review-evidence/
+.cleanup-*
 
 # Editor directories and files
 .vscode/*

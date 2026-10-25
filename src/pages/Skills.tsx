@@ -1,4 +1,4 @@
-﻿import { CapabilityGroups } from "../components/CapabilityGroups";
+﻿import { CapabilityGroups } from "@/components/profile/CapabilityGroups";
 export default function Skills() {
   return (
     <div className="page content-width">

@@ -1,7 +1,7 @@
 ﻿import { Link } from "react-router-dom";
-import { Portrait } from "../components/Portrait";
-import { professional } from "../data/professional";
-import { ResumeDownload } from "../components/ResumeDownload";
+import { Portrait } from "@/components/profile/Portrait";
+import { professional } from "@/data/professional";
+import { ResumeDownload } from "@/components/profile/ResumeDownload";
 export default function About() {
   return (
     <div className="page content-width">

@@ -1,11 +1,11 @@
 ﻿import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import { Portrait } from "../components/Portrait";
-import { ProjectCard } from "../components/ProjectCard";
-import { ResumeDownload } from "../components/ResumeDownload";
-import { ExperienceList } from "../components/ExperienceList";
-import { Button } from "../components/ui/button";
-import { professional } from "../data/professional";
+import { Portrait } from "@/components/profile/Portrait";
+import { ProjectCard } from "@/components/projects/ProjectCard";
+import { ResumeDownload } from "@/components/profile/ResumeDownload";
+import { ExperienceList } from "@/components/profile/ExperienceList";
+import { Button } from "@/components/ui/button";
+import { professional } from "@/data/professional";
 export default function Index() {
   const featured = professional.projects.filter((project) => project.featured);
   const current = professional.experience.find((role) => role.end === null);

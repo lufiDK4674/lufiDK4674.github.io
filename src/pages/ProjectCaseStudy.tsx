@@ -1,11 +1,11 @@
 ﻿import { Link, useParams } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
-import { ProjectFlow } from "../components/ProjectFlow";
-import { EvidencePreview } from "../components/EvidencePreview";
-import { DocumentArchitecture } from "../components/DocumentArchitecture";
-import { Button } from "../components/ui/button";
-import { professional } from "../data/professional";
-import NotFound from "./NotFound";
+import { ProjectFlow } from "@/components/projects/ProjectFlow";
+import { EvidencePreview } from "@/components/projects/EvidencePreview";
+import { DocumentArchitecture } from "@/components/projects/DocumentArchitecture";
+import { Button } from "@/components/ui/button";
+import { professional } from "@/data/professional";
+import NotFound from "@/pages/NotFound";
 export default function ProjectCaseStudy() {
   const { projectId } = useParams();
   const project = professional.projects.find(

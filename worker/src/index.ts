@@ -1,17 +1,23 @@
 export interface Env {
   OPENROUTER_API_KEY: string;
   CHAT_RATE_LIMIT_MINUTE?: RateLimit;
-  CHAT_RATE_LIMIT_DAY?: RateLimit;
+  CHAT_RATE_LIMIT_GLOBAL_MINUTE?: RateLimit;
+  CONTACT_RATE_LIMIT?: RateLimit;
+  EMAILJS_SERVICE_ID?: string;
+  EMAILJS_TEMPLATE_ID?: string;
+  EMAILJS_PUBLIC_KEY?: string;
 }
 
+import { escapeEmailTemplateValue, validateContactPayload } from "./contact-validation.ts";
+
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
+const EMAILJS_URL = "https://api.emailjs.com/api/v1.0/email/send";
 
 // Restrict CORS to the portfolio's own domains so other sites can't embed
 // this proxy. CORS is browser-enforced only — the rate-limit bindings below
 // are what actually stop direct/abusive callers.
 const ALLOWED_ORIGINS = new Set<string>([
   "https://divyanshukumar.online",
-  "https://divyanshukumar.me",
   "http://localhost:5173",
   "http://localhost:8080",
 ]);
@@ -31,6 +37,7 @@ const ALLOWED_MODELS_SET = new Set(ALLOWED_MODELS);
 // so the body cap must allow for it. The user/assistant cap targets
 // prompt-stuffing without choking the legit knowledge payload.
 const MAX_BODY_BYTES = 200 * 1024;
+const MAX_CONTACT_BODY_BYTES = 8 * 1024;
 const MAX_MESSAGES = 30;
 const MAX_PER_MESSAGE_CHARS = 100 * 1024;
 const MAX_USER_ASSISTANT_CHARS = 32 * 1024;
@@ -108,29 +115,31 @@ interface SanitizeError {
 }
 
 function sanitize(raw: string): SanitizeResult | SanitizeError {
-  let parsed: any;
+  let parsed: unknown;
   try {
     parsed = JSON.parse(raw);
   } catch {
     return { ok: false, status: 400, message: "Invalid JSON body" };
   }
-  if (typeof parsed !== "object" || parsed === null) {
+  if (typeof parsed !== "object" || parsed === null || Array.isArray(parsed)) {
     return { ok: false, status: 400, message: "Body must be a JSON object" };
   }
+  const input = parsed as Record<string, unknown>;
 
-  const messages = parsed.messages;
-  if (!Array.isArray(messages) || messages.length === 0) {
+  if (!Array.isArray(input.messages) || input.messages.length === 0) {
     return { ok: false, status: 400, message: "messages must be a non-empty array" };
   }
-  if (messages.length > MAX_MESSAGES) {
+  if (input.messages.length > MAX_MESSAGES) {
     return { ok: false, status: 422, message: `Too many messages (max ${MAX_MESSAGES})` };
   }
 
+  const messages: Array<{ role: "system" | "user" | "assistant"; content: string }> = [];
   let userAssistantChars = 0;
-  for (const msg of messages) {
-    if (!msg || typeof msg !== "object") {
+  for (const message of input.messages) {
+    if (!message || typeof message !== "object" || Array.isArray(message)) {
       return { ok: false, status: 400, message: "Each message must be an object" };
     }
+    const msg = message as Record<string, unknown>;
     if (msg.role !== "system" && msg.role !== "user" && msg.role !== "assistant") {
       return { ok: false, status: 400, message: "Invalid message role" };
     }
@@ -143,18 +152,21 @@ function sanitize(raw: string): SanitizeResult | SanitizeError {
     if (msg.role === "user" || msg.role === "assistant") {
       userAssistantChars += msg.content.length;
     }
+    messages.push({ role: msg.role, content: msg.content });
   }
   if (userAssistantChars > MAX_USER_ASSISTANT_CHARS) {
     return { ok: false, status: 422, message: "Conversation too long" };
   }
 
   // Lock model/models to the free allowlist.
-  const model = ALLOWED_MODELS_SET.has(parsed.model) ? parsed.model : ALLOWED_MODELS[0];
-  const clientModels = Array.isArray(parsed.models) ? parsed.models.filter((m: string) => ALLOWED_MODELS_SET.has(m)) : [];
+  const model = typeof input.model === "string" && ALLOWED_MODELS_SET.has(input.model) ? input.model : ALLOWED_MODELS[0];
+  const clientModels = Array.isArray(input.models)
+    ? input.models.filter((entry): entry is string => typeof entry === "string" && ALLOWED_MODELS_SET.has(entry))
+    : [];
   const models = clientModels.length > 0 ? clientModels : ALLOWED_MODELS;
 
   // Clamp output tokens.
-  const requestedTokens = typeof parsed.max_tokens === "number" ? parsed.max_tokens : MAX_TOKENS;
+  const requestedTokens = typeof input.max_tokens === "number" ? input.max_tokens : MAX_TOKENS;
   const max_tokens = Math.max(1, Math.min(requestedTokens, MAX_TOKENS));
 
   // Prepend the immutable guardrail and forward ONLY whitelisted fields.
@@ -215,6 +227,145 @@ export default {
       return finish(new Response(null, { status: 204, headers: cors }), { level: "info" });
     }
 
+    const url = new URL(request.url);
+    if (url.pathname === "/contact") {
+      if (request.method !== "POST") {
+        return finish(new Response("Method Not Allowed", { status: 405, headers: responseHeaders }), {
+          level: "warn",
+        });
+      }
+
+      const origin = request.headers.get("Origin");
+      if (origin && !ALLOWED_ORIGINS.has(origin)) {
+        return finish(new Response("Origin not allowed", { status: 403, headers: responseHeaders }), {
+          level: "warn",
+          validationError: "origin not allowed",
+        });
+      }
+
+      if (!request.headers.get("Content-Type")?.toLowerCase().includes("application/json")) {
+        return finish(new Response("Expected application/json", { status: 415, headers: responseHeaders }), {
+          level: "warn",
+          validationError: "unsupported content type",
+        });
+      }
+
+      const raw = await request.text();
+      if (new TextEncoder().encode(raw).byteLength > MAX_CONTACT_BODY_BYTES) {
+        return finish(new Response("Payload too large", { status: 413, headers: responseHeaders }), {
+          level: "warn",
+          validationError: "contact body too large",
+        });
+      }
+
+      let payload: unknown;
+      try {
+        payload = JSON.parse(raw);
+      } catch {
+        return finish(new Response("Invalid JSON body", { status: 400, headers: responseHeaders }), {
+          level: "warn",
+          validationError: "invalid contact JSON",
+        });
+      }
+
+      const validated = validateContactPayload(payload);
+      if (!validated.ok) {
+        return finish(
+          new Response(JSON.stringify({ ok: false, message: validated.message }), {
+            status: validated.status,
+            headers: { ...responseHeaders, "Content-Type": "application/json" },
+          }),
+          { level: "warn", validationError: "contact validation failed" },
+        );
+      }
+
+      if (!env.CONTACT_RATE_LIMIT) {
+        return finish(
+          new Response(JSON.stringify({ ok: false, message: "The contact form is temporarily unavailable." }), {
+            status: 503,
+            headers: { ...responseHeaders, "Content-Type": "application/json" },
+          }),
+          { level: "error", validationError: "contact rate limit is not configured" },
+        );
+      }
+
+      const contactLimit = await env.CONTACT_RATE_LIMIT.limit({ key: ip });
+      if (!contactLimit.success) {
+        return finish(
+          new Response(JSON.stringify({ ok: false, message: "Please wait a minute before trying again." }), {
+            status: 429,
+            headers: { ...responseHeaders, "Content-Type": "application/json", "Retry-After": "60" },
+          }),
+          { level: "warn", rateLimited: true },
+        );
+      }
+
+      if (validated.spam) {
+        return finish(
+          new Response(JSON.stringify({ ok: true }), {
+            status: 202,
+            headers: { ...responseHeaders, "Content-Type": "application/json" },
+          }),
+          { level: "info" },
+        );
+      }
+
+      if (!env.EMAILJS_SERVICE_ID || !env.EMAILJS_TEMPLATE_ID || !env.EMAILJS_PUBLIC_KEY) {
+        return finish(
+          new Response(JSON.stringify({ ok: false, message: "The contact form is temporarily unavailable." }), {
+            status: 503,
+            headers: { ...responseHeaders, "Content-Type": "application/json" },
+          }),
+          { level: "error", validationError: "email service is not configured" },
+        );
+      }
+
+      let upstream: Response;
+      try {
+        upstream = await fetch(EMAILJS_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            service_id: env.EMAILJS_SERVICE_ID,
+            template_id: env.EMAILJS_TEMPLATE_ID,
+            user_id: env.EMAILJS_PUBLIC_KEY,
+            template_params: {
+              name: escapeEmailTemplateValue(validated.submission.name),
+              email: escapeEmailTemplateValue(validated.submission.email),
+              from_message: escapeEmailTemplateValue(validated.submission.message),
+            },
+          }),
+          signal: AbortSignal.timeout(10_000),
+        });
+      } catch (error) {
+        return finish(
+          new Response(JSON.stringify({ ok: false, message: "The message could not be sent. Please email me directly." }), {
+            status: 502,
+            headers: { ...responseHeaders, "Content-Type": "application/json" },
+          }),
+          { level: "error", error: error instanceof Error ? error.name : "upstream request failed", upstreamStatus: null },
+        );
+      }
+
+      if (!upstream.ok) {
+        return finish(
+          new Response(JSON.stringify({ ok: false, message: "The message could not be sent. Please email me directly." }), {
+            status: 502,
+            headers: { ...responseHeaders, "Content-Type": "application/json" },
+          }),
+          { level: "error", upstreamStatus: upstream.status },
+        );
+      }
+
+      return finish(
+        new Response(JSON.stringify({ ok: true }), {
+          status: 200,
+          headers: { ...responseHeaders, "Content-Type": "application/json" },
+        }),
+        { level: "info", upstreamStatus: upstream.status },
+      );
+    }
+
     if (request.method !== "POST") {
       return finish(new Response("Method Not Allowed", { status: 405, headers: responseHeaders }), {
         level: "warn",
@@ -228,7 +379,7 @@ export default {
       });
     }
 
-    // ── Rate limiting (per-IP burst + global daily quota) ──
+    // ── Rate limiting (per-IP burst + per-location aggregate cap) ──
     if (env.CHAT_RATE_LIMIT_MINUTE) {
       const { success } = await env.CHAT_RATE_LIMIT_MINUTE.limit({ key: ip });
       if (!success) {
@@ -241,13 +392,13 @@ export default {
         );
       }
     }
-    if (env.CHAT_RATE_LIMIT_DAY) {
-      const { success } = await env.CHAT_RATE_LIMIT_DAY.limit({ key: "global" });
+    if (env.CHAT_RATE_LIMIT_GLOBAL_MINUTE) {
+      const { success } = await env.CHAT_RATE_LIMIT_GLOBAL_MINUTE.limit({ key: "global" });
       if (!success) {
         return finish(
-          new Response("Daily chat quota reached", {
+          new Response("Aggregate chat request limit reached", {
             status: 429,
-            headers: { ...responseHeaders, "Retry-After": "3600" },
+            headers: { ...responseHeaders, "Retry-After": "60" },
           }),
           { level: "warn", rateLimited: true },
         );

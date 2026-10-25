@@ -1,16 +1,11 @@
 ﻿import { useEffect, useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
-import { ProjectCard } from "../components/ProjectCard";
-import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from "../components/ui/tabs";
-import { Input } from "../components/ui/input";
-import { Label } from "../components/ui/label";
-import { Button } from "../components/ui/button";
-import { professional } from "../data/professional";
+import { ProjectCard } from "@/components/projects/ProjectCard";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
+import { professional } from "@/data/professional";
 export default function Projects() {
   const [params] = useSearchParams();
   const requestedProject = professional.projects.find(

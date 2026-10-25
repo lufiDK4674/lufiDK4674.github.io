@@ -1,4 +1,4 @@
-import professionalData from "./professional.json";
+import professionalData from "@/data/professional.json";
 
 export interface ProfessionalContent {
   about: { introduction: string; paragraphs: string[] };
@@ -121,4 +121,4 @@ export interface ProfessionalContent {
   seoNotFound: { title: string; description: string };
 }
 
-export const professional = professionalData as ProfessionalContent;
+export const professional: ProfessionalContent = professionalData;
